@@ -55,3 +55,25 @@ body{
 .menubar a.active, .menubar a:hover{
     background-color: #00aeef;
 }
+
+.primary-container {
+    background-image: url(../img/body-bg-top-s.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.primary-container .primary-container-row {
+
+    background-image: url(../img/body-bg-rt-s-bw.png);
+    background-position: 100% 0%;
+    background-repeat: repeat-y;
+    margin-left: 0;
+}
+
+.primary-container .primary-container-col{
+    background-image: url(../img/body-bg-lt-s.png);
+    background-position: 0% 0%;
+    background-repeat: repeat-y;
+    padding-left: 61px;
+    padding-top: 90px !important;
+}
