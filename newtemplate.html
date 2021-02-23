@@ -4,10 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link href="/css/main.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/main.css" rel="stylesheet">
     <title>Hello, world!</title>
 </head>
 <body>
@@ -25,8 +25,8 @@
                 <h2>An Initiative by</h2>
                 <h2>COMSNETS Association</h2>
                 <h4>
-                    <span title="Physical conference with option to join virtually">(Hybrid Conference)</span> 
-                    // 2 – 4 September 2021 
+                    <span title="Physical conference with option to join virtually">(Hybrid Conference)</span>
+                    // 2 – 4 September 2021
                     // Chancery Pavilion Hotel, Bangalore, India
                 </h4>
             </div>
@@ -46,49 +46,49 @@
         </ul>
     </div>
     <div class="container p-0">
-        the size of application state that they wish to track across callbacks tothe library via API function R1. 
-        This function takes as argument thenumber of types of request objects and their sizes. Upon receivingthis 
-        information from the VNF, the library provisions multiple poolsof request objects per core, one pool for 
-        each object size, after round-ing up the request object sizes to the smallest power-of-2 block thatcan 
-        accommodate the object. Our implementation currently allows4 pools of220objects each per core, and the 
-        pools are preallocatedusing a slab allocator [22] to avoid dynamic memory allocation over-heads. The 
+        the size of application state that they wish to track across callbacks tothe library via API function R1.
+        This function takes as argument thenumber of types of request objects and their sizes. Upon receivingthis
+        information from the VNF, the library provisions multiple poolsof request objects per core, one pool for
+        each object size, after round-ing up the request object sizes to the smallest power-of-2 block thatcan
+        accommodate the object. Our implementation currently allows4 pools of220objects each per core, and the
+        pools are preallocatedusing a slab allocator [22] to avoid dynamic memory allocation over-heads. The
         per-core request object pools are cache-optimized, andaccessed by the VNF threads in a lockfree manner.
-        
-        Every connection endpoint can be optionally associated with a re-quest object, and this object is returned 
-        on every callback associatedwith that endpoint. If a connection has no request object associatedwith it yet, 
-        API function R2 can be used to allocate a new requestobject of a specific size and associate it with a 
-        connection endpoint.Further, multiple connection endpoints (e.g., sockets to communi-cate withAandCatB) 
-        can also be associated with the same requestobject, because handling one application layer request can rely 
-        onmultiple asynchronous network communications. In such cases, APIfunction R3 can be used to associate an 
-        existing request object toanother connection endpoint. Once a VNF has completed processinga request (or has 
-        encountered an error and wishes to abort a request),the request object can be deallocated using API function 
-        R4. Notethat the API gives applications complete control over what state theywish to track across callbacks, 
-        and what the granularity of a requestis. We currently assume that the application has one outstanding re-quest 
-        at a time on a connection, and we plan to relax this assumptionin future work.Request objects can store 
-        pointers to other objects managed bythe library, e.g., packet buffers. Recall that API function C5 is usedto 
-        obtain a pointer to a non-evictable packet buffer, and such pointerscan be stored in request objects without 
-        worrying about the buffersbeing recycled. The VNF developer should take care to ensure thatthe pointers 
-        stored in a request object are released (e.g., packet buffermarked as evictable using function C6) before 
-        a request object isreleased. We assume that the memory allocated for a request objectis freed by the VNF 
-        developer at the end of the request processing.3.4  State ManagementThe libVNF API provides functions to 
-        store application state (as-sumed to be in the form of multiple tables of key-value pairs) acrossper-core 
-        threads of the VNF application, and across multiple dis-tributed replicas of a VNF. The API supports 
-        non-blocking get, set,and delete of these key-value pairs. Our framework provides a localdatastore that 
-        is shared across all threads of a single VNF instance,and a remote shared data store that is shared across 
-        multiple VNFreplicas. In addition, the library also maintains a local FIFO cacheof key-value pairs fetched 
-        from the remote datastore, which canbe used to improve performance when accessing remote state. Ourcurrent 
+
+        Every connection endpoint can be optionally associated with a re-quest object, and this object is returned
+        on every callback associatedwith that endpoint. If a connection has no request object associatedwith it yet,
+        API function R2 can be used to allocate a new requestobject of a specific size and associate it with a
+        connection endpoint.Further, multiple connection endpoints (e.g., sockets to communi-cate withAandCatB)
+        can also be associated with the same requestobject, because handling one application layer request can rely
+        onmultiple asynchronous network communications. In such cases, APIfunction R3 can be used to associate an
+        existing request object toanother connection endpoint. Once a VNF has completed processinga request (or has
+        encountered an error and wishes to abort a request),the request object can be deallocated using API function
+        R4. Notethat the API gives applications complete control over what state theywish to track across callbacks,
+        and what the granularity of a requestis. We currently assume that the application has one outstanding re-quest
+        at a time on a connection, and we plan to relax this assumptionin future work.Request objects can store
+        pointers to other objects managed bythe library, e.g., packet buffers. Recall that API function C5 is usedto
+        obtain a pointer to a non-evictable packet buffer, and such pointerscan be stored in request objects without
+        worrying about the buffersbeing recycled. The VNF developer should take care to ensure thatthe pointers
+        stored in a request object are released (e.g., packet buffermarked as evictable using function C6) before
+        a request object isreleased. We assume that the memory allocated for a request objectis freed by the VNF
+        developer at the end of the request processing.3.4  State ManagementThe libVNF API provides functions to
+        store application state (as-sumed to be in the form of multiple tables of key-value pairs) acrossper-core
+        threads of the VNF application, and across multiple dis-tributed replicas of a VNF. The API supports
+        non-blocking get, set,and delete of these key-value pairs. Our framework provides a localdatastore that
+        is shared across all threads of a single VNF instance,and a remote shared data store that is shared across
+        multiple VNFreplicas. In addition, the library also maintains a local FIFO cacheof key-value pairs fetched
+        from the remote datastore, which canbe used to improve performance when accessing remote state. Ourcurrent
         implementation assumes that keys are integers and valuesare dynamically allocated blobs of arbitrary size.
-        
-        API function D1 is used to store a key-value pair, in the local orremote datastores. The function is 
-        non-blocking, and an associatedcallback function is invoked when the set operation has completedby the 
+
+        API function D1 is used to store a key-value pair, in the local orremote datastores. The function is
+        non-blocking, and an associatedcallback function is invoked when the set operation has completedby the
         library (successfully or otherwise). Function D2 is used to
     </div>
-    
+
     <!-- Optional JavaScript; choose one of the two! -->
-    
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    
+
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
