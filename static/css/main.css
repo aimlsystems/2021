@@ -64,7 +64,7 @@ body{
 }
 
 .primary-container .primary-container-row {
-
+    
     background-image: url(../img/body-bg-rt-s-bw.png);
     background-position: 100% 0%;
     background-repeat: repeat-y;
@@ -82,5 +82,24 @@ body{
 }
 
 .primary-container .primary-container-col .carousel {
+    margin-left: -61px;
+}
+
+.primary-container .primary-container-col .carousel img {
+    width: 100%;
+}
+
+.primary-container .primary-container-col .col h1{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: normal;
+    letter-spacing: 1px;
+    background-color: #404041;
+    color: #ffffff;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    line-height: 1;
+    border: none;
     margin-left: -61px;
 }
