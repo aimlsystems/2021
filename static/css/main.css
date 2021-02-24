@@ -4,6 +4,15 @@
     color: white;
 }
 
+.webtopbar a {
+    color: white;
+    text-decoration: none;
+}
+.webtopbar a:hover {
+    color: rgb(243, 243, 243);
+    text-decoration: underline;
+}
+
 .container{
     background-color: white;
 }
@@ -89,7 +98,7 @@ body{
     width: 100%;
 }
 
-.primary-container .primary-container-col .col h1{
+.primary-container>.primary-container-row>.primary-container-col>.col>h1 {
     display: inline-block;
     vertical-align: top;
     font-weight: normal;
