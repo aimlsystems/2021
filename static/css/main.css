@@ -43,14 +43,21 @@ body{
     color: white;
     text-transform: uppercase;
 }
-.menubar ul{
+/* .menubar ul{
     font-size: 0;
-}
+} */
 .menubar li{
     list-style: none;
     list-style-position: inside;
     list-style-type: none;
     display: inline-block;
+}
+.menubar .dropdown-menu li{
+    width: 100%;
+}
+
+.menubar .dropdown-menu {
+    background-color: #005f98;
 }
 
 .menubar a{
@@ -98,7 +105,18 @@ body{
     width: 100%;
 }
 
-.primary-container>.primary-container-row>.primary-container-col>.col>h1 {
+.primary-container>.primary-container-row>.primary-container-col>.col>h1,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h1,
+.primary-container>.primary-container-row>.primary-container-col>.col>h2,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h2,
+.primary-container>.primary-container-row>.primary-container-col>.col>h3,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h3,
+.primary-container>.primary-container-row>.primary-container-col>.col>h4,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h4,
+.primary-container>.primary-container-row>.primary-container-col>.col>h5,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h5,
+.primary-container>.primary-container-row>.primary-container-col>.col>h6,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h6 {
     display: inline-block;
     vertical-align: top;
     font-weight: normal;
