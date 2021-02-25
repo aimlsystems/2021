@@ -69,6 +69,11 @@ body{
     display: inline-block;
 }
 
+.menubar .dropdown-menu a{
+    line-height: 2rem;
+    text-transform: capitalize;
+}
+
 .menubar a.active, .menubar a:hover{
     background-color: #00aeef;
 }
