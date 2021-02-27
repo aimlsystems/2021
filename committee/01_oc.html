@@ -9,7 +9,7 @@ menutype: committee
 <div class="row">
 {% for mem in committee.members %}
 <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 p-4">
-    <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] }}" class="img-fluid" style="width: 100%;" ></div>
+    <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] }}" class="img-fluid rounded-circle shadow" style="width: 100%;" ></div>
     <h5 class="text-center"><a href="{{ site.data.peoples[mem][2] }}" target="_blank">{{ site.data.peoples[mem][0] }}</a></h5>
     <h5 class="text-center">{{ site.data.peoples[mem][1] }}</h5>
 </div>
