@@ -144,3 +144,20 @@ body{
     border: none;
     margin-left: -61px;
 }
+
+.carousel-item .blurred-bg {
+    background-size: cover;
+    filter: blur(8px); 
+    -webkit-filter: blur(8px);
+    background-position: center;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.carousel-item .nonblurred-bg {
+    z-index: 2;
+/*    background-size: cover;
+    filter: blur(8px); 
+    -webkit-filter: blur(8px);*/
+}
