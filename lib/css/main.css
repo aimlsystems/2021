@@ -131,7 +131,7 @@ body{
 .primary-container>.primary-container-row>.primary-container-col>.col>.h5,
 .primary-container>.primary-container-row>.primary-container-col>.col>h6,
 .primary-container>.primary-container-row>.primary-container-col>.col>.h6 {
-    display: inline-block;
+    display: table;
     vertical-align: top;
     font-weight: normal;
     letter-spacing: 1px;
