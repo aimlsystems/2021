@@ -52,6 +52,12 @@ body{
     list-style-type: none;
     display: inline-block;
 }
+.menubar .container {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #404041;
+    color: white;
+}
 .menubar .dropdown-menu li{
     width: 100%;
 }
