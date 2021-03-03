@@ -4,7 +4,8 @@ markdown:         kramdown
 highlighter:      rouge
 plugins:          [jekyll-paginate]
 # Permalinks
-permalink:        pretty
+# permalink:        pretty
+permalink: /:basename/
 
 # Setup
 title:            The First International Conference on AI & ML Systems
@@ -27,3 +28,9 @@ github:
 
 
 repository: aimlsystems/2021
+
+
+collections:
+  wpages:
+    output: true
+    permalink: /:path
