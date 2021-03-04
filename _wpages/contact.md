@@ -2,6 +2,7 @@
 layout: page
 title: Contact Us
 menutype: base
+menutitle: Contact Us
 permalink: /contacts
 ---
 

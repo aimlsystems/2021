@@ -18,12 +18,10 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownCommittee">
                             {% for node in pages_list %}
-                            {% if node.title != null %}
-                            {% if node.layout == "page" and node.menutype == "committee" %}
+                            {% if node.title != null and node.layout == "page" and node.menutype == "committee" %}
                             <li>
                                 <a class="d-block dropdown-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}"><h5 class="m-0 p-0">{{ node.menutitle | default: node.title }}</h5></a>
                             </li>
-                            {% endif %}
                             {% endif %}
                             {% endfor %}
                         </ul>
@@ -34,12 +32,26 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMainConf">
                             {% for node in pages_list %}
-                            {% if node.title != null %}
-                            {% if node.layout == "page" and node.menutype == "main-conf" %}
+                            {% if node.title != null and node.layout == "page" and node.menutype == "main-conf" %}
                             <li>
                                 <a class="d-block dropdown-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}"><h5 class="m-0 p-0">{{ node.menutitle | default: node.title }}</h5></a>
                             </li>
                             {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown fs-6 border-end border-white  p-0 m-0">
+                        <a class="d-block nav-link dropdown-toggle px-3 py-0{% if page.layout == "page" and page.menutype == "auth" %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Authors
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMainConf">
+                            {% for node in pages_list %}
+                            {% if node.title != null and node.layout == "page" and node.menutype == "auth" %}
+                            <li>
+                                <a class="d-block dropdown-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}"><h5 class="m-0 p-0">{{ node.menutitle | default: node.title }}</h5></a>
+                            </li>
                             {% endif %}
                             {% endfor %}
                         </ul>
@@ -50,7 +62,7 @@
                     </li>
 
                 </ul>
-                <form class="d-md-flex me-2 rounded d-none d-md-none" style="background-color: white;">
+                <form class="d-md-flex me-2 rounded bg-light" >
                     <input class="form-control me-2 border-0" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn" type="submit"><i class="bi bi-search"></i></button>
                 </form>
