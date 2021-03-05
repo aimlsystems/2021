@@ -31,7 +31,12 @@ body{
     
 }
 
-.topbanner{
+.topbanner a{
+    text-decoration: none;
+    color: inherit;
+}
+.topbanner a:hover {
+    border-bottom: dotted;
 }
 
 .conf-title{
