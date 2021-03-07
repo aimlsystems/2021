@@ -34,3 +34,4 @@ collections:
   wpages:
     output: true
     permalink: /:path
+
