@@ -1,17 +1,16 @@
-- position: General
-  members: 
-    - Rakesh Agrawal, National Academy of Engineering
-    - Pushpak Bhattacharyya, IIT Bombay
+General:
+  - Rakesh Agrawal, National Academy of Engineering
+  - Pushpak Bhattacharyya, IIT Bombay
 
-- position: Technical Program
-  members:
-    - Srikanta Bedathur, IIT Delhi
+Technical Program:
+  - Srikanta Bedathur, IIT Delhi
+  - Manoj Chinnakotla, MS
+  - Ioana Manolescu, Inria
 
-- position: Steering Committee
-  members:
-    - Uday Desai
-    - Anurag Kumar
-    - Giridhar Mandyam
-    - Huzur Saran
-    - Rajeev Shorey
-    - G Venkatesh
+Steering Committee:
+  - Uday Desai
+  - Anurag Kumar
+  - Giridhar Mandyam
+  - Huzur Saran
+  - Rajeev Shorey
+  - G Venkatesh
