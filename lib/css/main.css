@@ -99,14 +99,14 @@ body{
 }
 
 .primary-container {
-    background-image: url(../img/body-bg-top-s.png);
+    /*background-image: url(../img/body-bg-top-s.png);*/
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 .primary-container .primary-container-row {
     
-    background-image: url(../img/body-bg-rt-s-bw.png);
+    /*background-image: url(../img/body-bg-rt-s-bw.png);*/
     background-position: 100% 0%;
     background-repeat: repeat-y;
     margin-left: 0;
@@ -114,12 +114,13 @@ body{
 }
 
 .primary-container .primary-container-col {
-    background-image: url(../img/body-bg-lt-s.png);
+    /*background-image: url(../img/body-bg-lt-s.png);*/
     background-position: 0% 0%;
     background-repeat: repeat-y;
     padding-left: 61px;
     padding-right: 20px;
     /* padding-top: 90px !important; */
+    background-color: #f0f0f0;
 }
 
 .primary-container .primary-container-col .carousel {
@@ -127,7 +128,7 @@ body{
     margin-right: -20px;    
 }
 
-@media (max-width: 575px) {
+/*@media (max-width: 575px) {
     .primary-container .primary-container-col .carousel img {
         width: 100vw;
         height: 26vw;
@@ -162,7 +163,44 @@ body{
         width: 1400px;
         height: 364px;
     }
+}*/
+@media (max-width: 575px) {
+    .primary-container .primary-container-col .carousel img {
+        width: auto;
+        height: 30vh;
+    }
 }
+@media (min-width: 576px) {
+    .primary-container .primary-container-col .carousel img {
+        width: auto;
+        height: 225px;
+    }
+}
+@media (min-width: 768px) {
+    .primary-container .primary-container-col .carousel img {
+        width: auto;
+        height: 300px;
+    }
+}
+@media (min-width: 992px) {
+    .primary-container .primary-container-col .carousel img {
+        width: auto;
+        height: 263px;
+    }
+}
+@media (min-width: 1200px) {
+    .primary-container .primary-container-col .carousel img {
+        width: auto;
+        height: 313px;
+    }
+}
+@media (min-width: 1400px) {
+    .primary-container .primary-container-col .carousel img {
+        width: auto;
+        height: 363px;
+    }
+}
+
 .primary-container .primary-container-col .carousel button, .primary-container .primary-container-col .carousel .carousel-indicators{
     z-index: 3 !important;
 }
@@ -182,10 +220,10 @@ body{
     display: table;
     vertical-align: top;
     font-weight: normal;
-    letter-spacing: 1px;
-    background-color: #404041;
+    /*letter-spacing: 1px;*/
+    background-color: #6a6a6a;
     color: #ffffff;
-    padding: 10px 30px;
+    padding: 5px 10px;
     margin-top: 10px;
     margin-bottom: 12px;
     line-height: 1;
@@ -195,9 +233,10 @@ body{
 
 .carousel-item .blurred-bg {
     background-size: cover;
-    filter: blur(8px); 
-    -webkit-filter: blur(8px);
+    /*filter: blur(8px); */
+    /*-webkit-filter: blur(8px);*/
     background-position: center;
+    background-color: #999;
     width: 100%;
     position: absolute;
     height: 100%;
