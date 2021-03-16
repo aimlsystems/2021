@@ -6,20 +6,20 @@ menutitle: Contact Us
 permalink: /contacts
 ---
 
-## Contact Us
+<!-- ### Contact Us -->
 
 &nbsp;
 
-#### General Conference Related Queries
+##### General Conference Related Queries
 * [aimlsys.conference@gmail.com](mailto:aimlsys.conference@gmail.com)
 
 
-#### Website
+##### Website
 * Abhijit Mondal
 > [am@abhijitmondal.in](mailto:am@abhijitmondal.in)
 
 
-#### Registration / VISA
+##### Registration / VISA
 * Chandrika Sridhar
 > [chandrika.sridhar@gmail.com](mailto:chandrika.sridhar@gmail.com) \
 > +91 8861452113
@@ -29,5 +29,5 @@ permalink: /contacts
 > +91 9916781981
 
 
-#### Sponsorship / Local Arrangements
+##### Sponsorship / Local Arrangements
 * [aimlsys.conference@gmail.com](mailto:aimlsys.conference@gmail.com) 
