@@ -1,7 +1,11 @@
 .webtopbar{
-    line-height: 2.3rem;
+    line-height: 2rem;
     background-color: transparent !important;
     color: white;
+}
+
+.fs-7 {
+    font-size: .8rem !important;
 }
 
 .webtopbar a {
