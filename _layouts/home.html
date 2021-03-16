@@ -6,7 +6,7 @@ layout: default
 <div class="container p-0 primary-container">
     <div class="row primary-container-row">
         <div class="primary-container-col">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause=false>
                 <div class="carousel-indicators">
                     {% for img in site.data.home_slide %}
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ forloop.index0 }}"{% if forloop.first == true %} class="active" aria-current="true"{% endif %} aria-label="Slide {{ forloop.index }}"></button>
@@ -16,7 +16,7 @@ layout: default
                 </div>
                 <div class="carousel-inner">
                     {% for img in site.data.home_slide %}
-                    <div class="carousel-item{% if forloop.first == true %} active{% endif %}" data-bs-interval="3000" data-bs-pause=false>
+                    <div class="carousel-item{% if forloop.first == true %} active{% endif %}" data-bs-interval="3000" >
                         <div class="row">
                             <!-- <div class="blurred-bg" style="background-image: url({{ site.baseurl }}/images/home_banner/{{ img }});"></div> -->
                             <div class="blurred-bg"></div>
