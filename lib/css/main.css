@@ -254,3 +254,9 @@ body{
 .text-justify {
     text-align: justify;
 }
+
+.blockquote {
+    padding-left: 10px;
+    border-left: gray solid 3px;
+    border-radius: 2px;
+}
