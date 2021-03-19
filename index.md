@@ -18,10 +18,7 @@ public healthcare, and security.
 
 
 
-{:.text-justify.pe-4}
-Authors are encouraged to submit previously unpublished research at the intersection of
-computational / socio-economic systems and AI/ML. The papers will be selected by the TPC
-based on their quality, novelty, utility and potential impact.
+
 
 
 <!-- #### Topics of Interest
@@ -54,9 +51,9 @@ The areas of interest are broadly categorized into the following three streams:
 
 #### Important Dates
 ##### Research Track
-* Abstract submissions due: June 13, 2021 (11:59 IST - GMT+5.5hrs)
-* Paper submissions due: June 20, 2021 (11:59 IST - GMT+5.5hrs) 
-* Author notifications (Accept/Reject): September 12, 2021
+* Abstract submissions due: June 13, 2021
+* Paper submissions due: June 20, 2021
+* Author notifications: September 12, 2021
 * Conference dates: October 21-23, 2021
 
 
