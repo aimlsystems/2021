@@ -14,8 +14,7 @@ improvements in CPU/GPU architectures, data-intensive infrastructure, communicat
 how the use of AI/ML can help in the continuous and workload-driven design space exploration
 of computational systems (e.g., self-tuning databases, learning compiler optimizers, learnable
 network systems etc.) and, the use of AI/ML in the design of socio-economic systems such as
-public healthcare, and security.  The goal is to bring together these diverse communities and
-elicit connections between them. 
+public healthcare, and security.
 
 
 
