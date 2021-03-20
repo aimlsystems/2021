@@ -278,3 +278,8 @@ body{
     border-left: gray solid 3px;
     border-radius: 2px;
 }
+
+.img-blore {
+    max-width: 200px;
+    max-height: 200px;
+}
