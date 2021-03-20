@@ -5,7 +5,7 @@ menutype: committee
 ---
 
 {% for committee in site.data.oc_mem %}
-<h4>{{ committee[0] }} {% if committee[1].size > 1 %}Co-Chairs{% else %}Chair{% endif %}</h4><br/>
+<h4>{{ committee[0] }} Co-Chairs</h4><br/>
 <div class="row">
 {% for mem in committee[1] %}
 <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 p-4">

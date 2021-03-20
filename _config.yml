@@ -8,7 +8,7 @@ plugins:          [jekyll-paginate]
 permalink: /:basename/
 
 # Setup
-title:            The First International Conference on AI & ML Systems
+title:            The First International Conference on AI-ML-Systems
 tagline:          An Initiative by COMSNETS Association
 url:              https://www.aimlsystems.org
 baseurl:          "/2021"
@@ -35,3 +35,4 @@ collections:
     output: true
     permalink: /:path
 
+shortname: AIMLSystems'21
