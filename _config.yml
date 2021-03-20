@@ -9,7 +9,7 @@ permalink: /:basename/
 
 # Setup
 title:            The First International Conference on AI-ML-Systems
-tagline:          An Initiative by COMSNETS Association
+tagline:          An Initiative of the COMSNETS Association
 url:              https://www.aimlsystems.org
 baseurl:          "/2021"
 
@@ -35,4 +35,4 @@ collections:
     output: true
     permalink: /:path
 
-shortname: AIMLSystems '21
+shortname: "AIMLSystems '21"
