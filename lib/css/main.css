@@ -221,18 +221,36 @@ body{
 .primary-container>.primary-container-row>.primary-container-col>.col>.h5,
 .primary-container>.primary-container-row>.primary-container-col>.col>h6,
 .primary-container>.primary-container-row>.primary-container-col>.col>.h6 {
-    display: table;
+    display: block;
     vertical-align: top;
     font-weight: normal;
     /*letter-spacing: 1px;*/
-    background-color: #6a6a6a;
-    color: #ffffff;
-    padding: 5px 10px;
+    /*background-color: #6a6a6a;*/
+    /*color: #ffffff;*/
+    /*padding: 0;*/
+    padding: 5px 0px;
     margin-top: 10px;
     margin-bottom: 12px;
-    line-height: 1;
     border: none;
     margin-left: -61px;
+}
+
+.primary-container>.primary-container-row>.primary-container-col>.col>h1 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h1 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>h2 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h2 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>h3 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h3 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>h4 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h4 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>h5 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h5 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>h6 span,
+.primary-container>.primary-container-row>.primary-container-col>.col>.h6 span {
+    background-color: #6a6a6a;
+    color: #ffffff;
+    padding: 3px 10px;
+    line-height: 1;
 }
 
 .carousel-item .blurred-bg {
