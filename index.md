@@ -82,6 +82,6 @@ Call for papers will be announced soon.
 <div markdown=1 class=col>
 #### Conference Venue
 
-We are proud to announce that {{ site.shortname}} will be held at the Chancery Pavilion Hotel, Bangalore, India.
+We are proud to announce that {{ site.shortname }} will be held at the Chancery Pavilion Hotel, Bangalore, India.
 </div>
 </div>
