@@ -65,7 +65,7 @@ The areas of interest are broadly categorized into the following three streams:
 
 The goal of the conference is to create a world-class forum for discussing cutting edge research, and directions for new innovative business and technology.
 
-Call for papers will be announced soon.
+[Submit a Paper &raquo;]({% include function_plink.html plink="cfp" %}){:.btn.btn-primary.btn-sm}
 
 </div>
 <div markdown=1 class=col>
@@ -82,6 +82,8 @@ Call for papers will be announced soon.
 <div markdown=1 class=col>
 #### Conference Venue
 
-We are proud to announce that {{ site.shortname}} will be held at the Chancery Pavilion Hotel, Bangalore, India.
+We are proud to announce that {{ site.shortname }} will be held at the Chancery Pavilion Hotel, Bangalore, India.
+
+[How to get here &raquo;]({% include function_plink.html plink="visit" bookmark="get_to_venue" %}){:.btn.btn-primary.btn-sm}
 </div>
 </div>

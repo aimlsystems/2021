@@ -43,8 +43,12 @@ body{
     border-bottom: dotted;
 }
 
-.conf-title{
+.conf-title, .conf-init{
     font-weight: 700;
+}
+
+.conf-init {
+    color: #000082;
 }
 
 .menubar{
@@ -282,4 +286,12 @@ body{
 .img-blore {
     max-width: 200px;
     max-height: 200px;
+}
+
+.bookmark {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    visibility: hidden;
 }
