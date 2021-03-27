@@ -87,3 +87,4 @@ We are proud to announce that {{ site.shortname }} will be held at the Chancery 
 [How to get here &raquo;]({% include function_plink.html plink="visit" bookmark="get_to_venue" %}){:.btn.btn-primary.btn-sm}
 </div>
 </div>
+

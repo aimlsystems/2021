@@ -8,6 +8,10 @@
     font-size: .8rem !important;
 }
 
+a {
+    text-decoration: none;
+}
+
 .webtopbar a {
     color: white;
     text-decoration: none;
@@ -294,4 +298,9 @@ body{
     padding: 0;
     line-height: 0;
     visibility: hidden;
+}
+
+.container.footer{
+    background-color: #f0f0f0;
+    margin-top: 1rem;
 }
