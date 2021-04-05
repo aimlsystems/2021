@@ -80,13 +80,12 @@ body{
     list-style-type: none;
     display: block;
     float: left;
-    font-weight: 600;
 }
 .menubar li .menu-search {
     height: 100%;
     padding-bottom: 2px;
 }
-.menubar li .menu-search input{
+.menubar .menu-search input{
     width: 5rem;
 }
 .menubar .navbar-nav {
