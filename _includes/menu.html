@@ -91,7 +91,7 @@
 <script type="text/javascript">
 {% assign menucounter = 0 %}
 const MenuItems = [
-    { value: {% increment menucounterpp %}, label: "Home", link: "{{ site.baseurl }}/index2/"},
+    { value: {% increment menucounterpp %}, label: "Home", link: "{{ site.baseurl }}/"},
     {% for node in pages_list %}
     {% if node.title != null and node.layout == "page" %}
     { value: {% increment menucounterpp %}, label: "{{ node.menutitle | default: node.title }}", link: "{{ site.baseurl }}{{ node.url }}" },
