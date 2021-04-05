@@ -8,6 +8,12 @@
     font-size: .8rem !important;
 }
 
+@media (min-width: 992px) {
+    .fs-7 {
+        font-size: 1rem !important;
+    }
+}
+
 a {
     text-decoration: none;
 }
@@ -17,7 +23,7 @@ a {
     text-decoration: none;
 }
 .webtopbar a:hover {
-    color: rgb(243, 243, 243);
+    color: #f3f3f3;
     text-decoration: underline;
 }
 
@@ -60,14 +66,27 @@ body{
     color: white;
     text-transform: uppercase;
 }
-/* .menubar ul{
+.menubar ul{
     font-size: 0;
-} */
-.menubar li{
+    /* display: block; */
+}
+.menubar li {
     list-style: none;
     list-style-position: inside;
     list-style-type: none;
-    display: inline-block;
+    display: block;
+    float: left;
+    font-weight: 600;
+}
+.menubar li .menu-search {
+    height: 100%;
+    padding-bottom: 2px;
+}
+.menubar li .menu-search input{
+    width: 5rem;
+}
+.menubar .navbar-nav {
+    display: inline;
 }
 .menubar .container {
     padding-left: 0;
