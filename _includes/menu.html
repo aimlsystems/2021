@@ -28,7 +28,7 @@
                     </li>
                     <li class="nav-item dropdown fs-6 border-end border-white  p-0 m-0">
                         <a class="d-block nav-link dropdown-toggle px-3 py-0{% if page.layout == "page" and page.menutype == "main-conf" %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Main Conference
+                            Conference
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMainConf">
                             {% for node in pages_list %}
@@ -55,6 +55,10 @@
                             {% endif %}
                             {% endfor %}
                         </ul>
+                    </li>
+
+                    <li class="nav-item fs-6 border-end border-white p-0 m-0">
+                        <a class="d-block nav-link px-3 py-0" href="{{ site.baseurl }}/faqs">FAQs</a>
                     </li>
 
                     <li class="nav-item fs-6 border-end border-white p-0 m-0">
