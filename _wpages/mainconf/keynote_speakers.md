@@ -7,8 +7,10 @@ menu_order: 1
 
 ### {{ page.title }}
 
-#### {{ site.data.peoples['Sergei Kuznetsov'][0] }}
+{% assign people = site.data.peoples['Sergei Kuznetsov'] %}
 
-[![{{ site.data.peoples['Sergei Kuznetsov'][0] }}]({{ site.baseurl }}/images/peoples/{{ site.data.peoples['Sergei Kuznetsov'][3] }}){:.img-blore}]({{ site.data.peoples['Sergei Kuznetsov'][2] }}){:target="_blank"}
+#### {{ people[0] }}
 
-{{ site.data.peoples['Sergei Kuznetsov'][1] }}
+[![{{ people[0] }}]({{ site.baseurl }}/images/peoples/{{ people[3] }}){:.img-blore}]({{ people[2] }}){:target="_blank"}
+
+{{ people[1] }}
