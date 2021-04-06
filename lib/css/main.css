@@ -88,9 +88,13 @@ body{
 .menubar .menu-search input{
     width: 5rem;
 }
+
+@media (min-width: 768px) {
 .menubar .navbar-nav {
     display: inline;
 }
+}
+
 .menubar .container {
     padding-left: 0;
     padding-right: 0;

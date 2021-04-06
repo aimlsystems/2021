@@ -7,8 +7,10 @@ menu_order: 3
 
 ### {{ page.title }}
 
-#### {{ site.data.peoples['Rajeev Rastogi'][0] }}
+{% assign people = site.data.peoples['Rajeev Rastogi'] %}
 
-[![{{ site.data.peoples['Rajeev Rastogi'][0] }}]({{ site.baseurl }}/images/peoples/{{ site.data.peoples['Rajeev Rastogi'][3] }}){:.img-blore}]({{ site.data.peoples['Rajeev Rastogi'][2] }}){:target="_blank"}
+#### {{ people[0] }}
 
-{{ site.data.peoples['Rajeev Rastogi'][1] }}
+[![{{ people[0] }}]({{ site.baseurl }}/images/peoples/{{ people[3] }}){:.img-blore}]({{ people[2] }}){:target="_blank"}
+
+{{ people[1] }}
