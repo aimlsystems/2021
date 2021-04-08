@@ -3,7 +3,7 @@ layout: page
 title: Venue
 menutype: auth
 plink: venue
-menu_order: 2
+menu_order: 3
 ---
 
 ### The Chancery Pavillion, Residency Road
