@@ -2,17 +2,14 @@
 layout: page
 title: Visiting Bangalore
 menutype: auth
-plink: visit
+plink: visit_blr
 menu_order: 4
-bookmarks: 
-    airport_facility: bm_airport
-    get_to_venue: bm_get_to_venue
 ---
 
 
 
 {:.bookmark}
-[&nbsp;](#{{ page.bookmarks["airport_facility"] }}){#{{ page.bookmarks["airport_facility"] }} }
+[&nbsp;](#airport_facility){:#airport_facility}
 ### Bangalore Airport Facility
 
 **Bengaluru (Bangalore) Airport** At the Bengaluru International Airport, your convenience is a matter of priority. To ensure you have a safe and comfortable experience at the airport, the authorities have put together a host of services and essential facilities. These are located across the two floors of our airport. Please use the maps provided below to locate the facility or service you may wish to use. You can also approach the friendly staff at the airport for more help.
@@ -140,7 +137,7 @@ The city railway station is about 7 kms from IISc campus. One will have to get o
 **The distance from the other listed hotels to the conference venue are mentioned against each of the hotels.**
 
 {:.bookmark}
-[&nbsp;](#{{ page.bookmarks["get_to_venue"] }}){:#{{ page.bookmarks["get_to_venue"] }}}
+[&nbsp;](#get_to_venue){:#get_to_venue}
 
 ### How to reach The Chancery Pavilion Hotel, The Conference Venue
 

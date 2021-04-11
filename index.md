@@ -34,7 +34,7 @@ ACM. The conference plans to partner with several academic institutions and rese
 The AIMLSystems'21 conference will be held in Bangalore, the Silicon Valley of Asia. 
 
 Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. Bangalore boasts of some of the finest institutions in the world such as the [Indian Institute of Science](https://iisc.ac.in/), the [Raman
-Research Institute](http://www.rri.res.in/), the [Indian Institute of Astrophysics](https://www.iiap.res.in/), the [Indian Institute of Management](https://www.iimcal.ac.in/), to name a few. 
+Research Institute](http://www.rri.res.in/), the [Indian Institute of Astrophysics](https://www.iiap.res.in/), the [Indian Institute of Management](https://www.iimb.ac.in/), to name a few. 
 
 Almost every multinational corporation including Amazon, Google, IBM, Microsoft, etc has a research lab in Bangalore. Apart from MNCs, Bangalore is also home to many startups and Indian tech companies. such as Infosys and Wipro.
 
@@ -110,7 +110,7 @@ The goal of the conference is to create a world-class forum for discussing cutti
 
 We are proud to announce that {{ site.shortname }} will be held at the Chancery Pavilion Hotel, Bangalore, India.
 
-[How to get here &raquo;]({% include function_plink.html plink="visit" bookmark="get_to_venue" %}){:.btn.btn-primary.btn-sm}
+[How to get here &raquo;]({% include function_plink.html plink="visit_blr" bookmark="get_to_venue" %}){:.btn.btn-primary.btn-sm}
 </div>
 </div>
 
