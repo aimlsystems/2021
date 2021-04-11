@@ -18,7 +18,7 @@ Rajeev Shorey : [rajeevshorey@gmail.com](mailto:rajeevshorey@gmail.com) \
 Giridhar Mandyam : [mandyam@qti.qualcomm.com](mailto:mandyam@qti.qualcomm.com)
 
 
-##### Platinum Sponsorship (INR 5,00,000 or above)
+##### Platinum Sponsorship (INR 10,50,000 or above, USD $15,000 or above)
 
 1. EIGHT full conference registrations
 1. Exhibits space
@@ -29,7 +29,7 @@ Giridhar Mandyam : [mandyam@qti.qualcomm.com](mailto:mandyam@qti.qualcomm.com)
 1. Name and logo in our WWW advertising, linkage to your company website
 1. Acknowledgement in opening address
 
-##### Gold Sponsorship (INR 3,00,000 or above)
+##### Gold Sponsorship (INR 7,00,000 or above, USD $10,000 or above)
 
 1. SIX full conference registrations
 1. Exhibits Space
@@ -40,7 +40,7 @@ Giridhar Mandyam : [mandyam@qti.qualcomm.com](mailto:mandyam@qti.qualcomm.com)
 1. Name and logo in our WWW advertising, linkage to your company website
 1. Acknowledgement in opening address
 
-##### Silver Sponsorship (INR 1,50,000 or above)
+##### Silver Sponsorship (INR 3,50,000 or above, USD $5,000 or above)
 
 1. FOUR full conference registrations
 1. Exhibits Space depending on availability
@@ -50,7 +50,7 @@ Giridhar Mandyam : [mandyam@qti.qualcomm.com](mailto:mandyam@qti.qualcomm.com)
 1. Name and logo in our WWW advertising, linkage to your company website
 1. Acknowledgement in opening address
 
-##### Bronze Sponsorship ( INR  50,000 or above)
+##### Bronze Sponsorship (INR  70,000 or above, USD $1,000 or above)
 
 1. TWO full conference registration
 1. Exhibits Space depending on availability
