@@ -24,9 +24,9 @@ permalink: /contacts
 > [chandrika.sridhar@gmail.com](mailto:chandrika.sridhar@gmail.com) \
 > +91 8861452113
 
-* Raj Sharma
-> [ksharma.raj@gmail.com](mailto:ksharma.raj@gmail.com) \
-> +91 9916781981
+* Ashwini Sampath
+> [ashwinis@iisc.ac.in](mailto:ashwinis@iisc.ac.in) \
+> +91 7022731479
 
 
 ##### Sponsorship / Local Arrangements
