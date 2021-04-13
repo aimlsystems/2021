@@ -1,0 +1,40 @@
+---
+layout: page
+title: Program Committee
+menutype: committee
+menu_order: 20
+---
+
+<br>
+<div class="h3">{{ page.title }}</div>
+<br>
+
+<div class="row">
+{% for pc in site.data.tpc_mem %}
+    <div class="col-md-6">{{ pc }}</div>
+{% endfor %}
+</div>
+<!-- 
+<table>
+{% for pc in site.data.tpc_mem %}
+{%- assign mod = forloop.index | modulo: 2 -%}
+{% if mod == 1 %}
+<tr>
+{% else %}
+<td>&nbsp;</td>
+{% endif %}
+<td>{{ pc }}</td>
+{% if mod == 0 %}
+</tr>
+{% else %}
+{%- if forloop.last -%}
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+{%- endif -%}
+{% endif %}
+{% endfor %}
+</table> -->
+
+
+<br>
