@@ -39,7 +39,7 @@ Title: **{{ detail[0] }}**
 
 {% assign sm-offset = "0" %}
 {% if forloop.last and sm-modulo==1 %}
-{% assign sm-offset = "3 %}
+{% assign sm-offset = "3" %}
 {% endif %}
 
 {% assign md-offset = "0" %}
