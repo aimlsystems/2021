@@ -337,6 +337,7 @@ body{
 
 .container.foot-buffer {
     line-height: 20px;
+    background-color: transparent;
 }
 
 .sponsor-strip {
@@ -353,4 +354,22 @@ body{
     max-height: 10vh;
     margin: 5px auto;
     display: block;
+}
+
+.image-viewer {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: #000000da;
+}
+
+.image-viewer img{
+    display: block;
+    margin: auto;
+    max-height: 100vh;
+    max-width: 100vh;
+    opacity: 100%;
 }
