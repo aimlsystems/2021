@@ -48,7 +48,6 @@ Title: **{{ detail[0] }}**
 {% elsif forloop.rindex==2 and md-modulo==2 %}
 {% assign md-offset = "2" %}
 {% endif %}
-{% assign md-offset = "1" %}
 
 <div class="col-12 offset-sm-{{ sm-offset }} col-sm-6 offset-md-{{ md-offset }} col-md-4 p-4">
     <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid" style="width: 100%;" ></div>
