@@ -335,6 +335,12 @@ body{
     background-position: center;
 }
 
+@media(max-width: 575px){
+    .container.footer{
+        background-size: 10%;
+    }
+}
+
 .container.foot-buffer {
     line-height: 20px;
     background-color: transparent;
