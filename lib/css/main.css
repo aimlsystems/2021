@@ -340,11 +340,16 @@ body{
     background-color: transparent;
 }
 
-.sponsor-strip {
-    background-color: #fff;
-    /* height: 10vh; */
+.container-fluid.sponsor-strip {
+    background-color: transparent;
     position: fixed;
     bottom: 0;
+    padding: 0;
+}
+
+.container.sponsor-strip {
+    background-color: #fff;
+    /* height: 10vh; */
     -webkit-box-shadow: inset 0 0 7px #000;
     -moz-box-shadow: inset 0 0 7px #000;
     box-shadow: inset 0 0 7px #000;
@@ -352,7 +357,7 @@ body{
 
 .sponsor-image {
     max-height: 10vh;
-    max-width: 90vw;
+    max-width: 95%;
     margin: 5px auto;
     display: block;
 }
