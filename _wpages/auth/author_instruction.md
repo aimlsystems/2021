@@ -3,7 +3,7 @@ layout: page
 title: Author Instruction
 menutype: auth
 plink: auth_inst
-menu_order: 2
+menu_order: 20
 ---
 
 
