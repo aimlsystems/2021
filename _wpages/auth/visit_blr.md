@@ -3,7 +3,7 @@ layout: page
 title: Visiting Bangalore
 menutype: auth
 plink: visit_blr
-menu_order: 4
+menu_order: 40
 ---
 
 
