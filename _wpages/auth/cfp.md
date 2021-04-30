@@ -21,7 +21,7 @@ public healthcare, and security.  The goal is to bring together these diverse co
 elicit connections between them.
 
 <div class="callout callout-primary me-4">
-<a href="{{ site.baseurl }}/docs/CFP_AIML_Systems-0428.pdf" download="AIMLSystems - Call for Papers.pdf"><i class="glyphicon glyphicon-download-alt" style="margin-right: 10px;"></i>  Download PDF version of the Call For Papers</a>
+<a href="{{ site.baseurl }}/docs/{{ site.cfp_pdf }}" download="AIMLSystems - Call for Papers.pdf"><i class="bi bi-download" style="margin-right: 10px;"></i>  Download PDF version of the Call For Papers</a>
 </div>
 
 
