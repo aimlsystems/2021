@@ -17,6 +17,10 @@ network systems etc.) and, the use of AI/ML in the design of socio-economic syst
 public healthcare, and security.
 
 
+<div class="callout callout-primary me-4">
+<a href="{% include function_plink.html plink="cfp" %}"><b>Call For Papers Announced!</b></a>
+</div>
+
 
 ##### Why Another AI/ML Conference? 
 
