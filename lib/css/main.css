@@ -385,3 +385,35 @@ body{
     max-width: 100vh;
     opacity: 100%;
 }
+
+.callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #cfcfcf;
+    border-left-width: 5px;
+    border-radius: 6px;
+}
+
+.callout-primary {
+    border-left-color: #777;
+}
+
+.callout-primary {
+    border-left-color: #428bca;
+}
+
+.callout-success {
+    border-left-color: #5cb85c;
+}
+
+.callout-danger {
+    border-left-color: #d9534f;
+}
+
+.callout-warning {
+    border-left-color: #f0ad4e;
+}
+
+.callout-info {
+    border-left-color: #5bc0de;
+}
