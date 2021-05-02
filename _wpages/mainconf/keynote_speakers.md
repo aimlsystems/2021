@@ -2,6 +2,7 @@
 layout: page
 title: Keynote Speakers
 menutype: main-conf
+plink: keynote
 menu_order: 1
 ---
 
