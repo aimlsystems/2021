@@ -5,7 +5,7 @@ menutype: main-conf
 menu_order: 1
 ---
 
-### {{ page.title }}
+<!-- ### {{ page.title }} -->
 
 
 <!-- {% for speaker in site.data.keynote_speakers %}
@@ -28,7 +28,10 @@ Title: **{{ detail[0] }}**
 
 {% endfor %} -->
 
-{% assign speakers = site.data.keynote_speakers %}
+<!-- {% assign speakers = site.data.keynote_speakers %} -->
+{% for cat in site.data.keynote_speakers %}
+{% assign speakers = cat[1] %}
+<h3>{{ cat[0] }} Keynotes </h3>
 
 <div class="row oc_cntr">
 {% assign sm-modulo = speakers.size | modulo: 2 %}
@@ -55,9 +58,11 @@ Title: **{{ detail[0] }}**
     <h5 class="text-center">{{ site.data.peoples[mem][1] | default: ""}}</h5>
     <h5 class="text-center">
 {% if detail[0] %}
-Title: <b>{{ detail[0] }}</b>
+<!-- Title: <b>{{ detail[0] }}</b> -->
 {% endif %}
     </h5>
 </div>
 {% endfor %}
 </div>
+
+{% endfor %}
