@@ -41,7 +41,8 @@ public healthcare, and security.
 {%- assign keys = keys | split: ", " -%}
 {%- assign keys = keys | sort -%}
 
-<div class="row divrow" id="keynote_scroll">
+
+<!-- <div class="row divrow" id="keynote_scroll">
 {% for ik in keys %}
 {% assign mod = forloop.index0 | modulo: 3 %}
 {% if mod == 0 %}
@@ -49,7 +50,7 @@ public healthcare, and security.
 {% endif %}
 {% assign mem = ik | split: " " | reverse | join: " " %}
 <div class="col-sm-4">
-<div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid" style="width: 100%;" ></div>
+    <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid" style="width: 100%;" ></div>
     <h5 class="text-center"><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h5>
     <h5 class="text-center">{{ site.data.peoples[mem][1] | default: ""}}</h5>
 </div>
@@ -63,25 +64,31 @@ public healthcare, and security.
 </div></div>
 {% endif %}
 
-</div>
+</div> -->
     
-<!-- <div id="carouselKeynoteIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause=false>
-    <div class="carousel-indicators">
-        {% for img in site.data.home_slide %}
-        <button type="button" data-bs-target="#carouselKeynoteIndicators" data-bs-slide-to="{{ forloop.index0 }}"{% if forloop.first == true %} class="active" aria-current="true"{% endif %} aria-label="Slide {{ forloop.index }}"></button>
-        {% endfor %}
-    </div>
+<div id="carouselKeynoteIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause=false>
     <div class="carousel-inner">
-        {% for img in site.data.home_slide %}
-        <div class="carousel-item{% if forloop.first == true %} active{% endif %}" data-bs-interval="3000" >
-            <div class="row">
-                <div class="blurred-bg"></div>
-                <div class="col nonblurred-bg text-center">
-                    <img src="{{ site.baseurl }}/images/home_banner/{{ img }}" class="img-fluid">
-                </div>
-            </div>
+        {% for ik in keys %}
+        {% assign mod = forloop.index0 | modulo: 3 %}
+        {% if mod == 0 %}
+        <div class="col-12 carousel-item{% if forloop.first == true %} active{% endif %}" data-bs-interval="3000"><div class="row">
+        {% endif %}
+        {% assign mem = ik | split: " " | reverse | join: " " %}
+        <div class="col-sm-4">
+            <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid" style="width: 100%;" ></div>
+            <h5 class="text-center"><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h5>
+            <h5 class="text-center">{{ site.data.peoples[mem][1] | default: ""}}</h5>
         </div>
+        {% assign mod = forloop.index | modulo: 3 %}
+        {% if mod == 0 %}
+        </div></div>
+        {% endif %}
         {% endfor %}
+        {% assign mod = keys.size | modulo: 3 %}
+        {% if mod != 0 %}
+        </div></div>
+        {% endif %}
+        
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselKeynoteIndicators"  data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -91,7 +98,7 @@ public healthcare, and security.
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
-</div> -->
+</div>
 
 
 ##### Why Another AI/ML Conference? 
