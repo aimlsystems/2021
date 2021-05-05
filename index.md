@@ -21,7 +21,7 @@ public healthcare, and security.
 <a href="{% include function_plink.html plink="cfp" %}"><b>Call For Papers Announced!</b></a>
 </div>
 
-##### Keynote Speakers
+##### Research & Industry Insights Keynote Speakers
 
 {% assign rkeynotes = site.data.keynote_speakers["Research"] %}
 {%- assign ikeynotes = site.data.keynote_speakers["Industrial Insights"] -%}

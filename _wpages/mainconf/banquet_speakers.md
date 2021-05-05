@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Banquet Speakers
-menutype: main-conf
 menu_order: 3
 ---
 
