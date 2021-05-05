@@ -8,8 +8,8 @@ menu_order: 10
 {% for committee in site.data.oc_mem %}
 <h4>{{ committee[0] }} Co-Chairs</h4><br/>
 <div class="row oc_cntr">
-{% assign sm-modulo = 0 | modulo: 2 %}
-{% assign md-modulo = 0 | modulo: 3 %}
+{% assign sm-modulo = committee[1].size | modulo: 2 %}
+{% assign md-modulo = committee[1].size | modulo: 3 %}
 {% for mem in committee[1] %}
 {% assign sm-offset = "0" %}
 {% if forloop.last and sm-modulo==1 %}

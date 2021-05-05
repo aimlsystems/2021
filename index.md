@@ -26,46 +26,23 @@ public healthcare, and security.
 {% assign rkeynotes = site.data.keynote_speakers["Research"] %}
 {%- assign ikeynotes = site.data.keynote_speakers["Industrial Insights"] -%}
 {%- assign keys = "" -%}
-{%- for ik in rkeynotes -%}
-{%- assign p = ik[0] | split: " " | reverse | join: " " -%}
-{%- if forloop.first == true -%}
-{%- assign keys = keys | append: p -%}
-{%- else -%}
-{%- assign keys = keys | append: ", " | append: p -%}
-{%- endif -%}
-{%- endfor -%}
+
+{%- for kn in site.data.keynote_speakers -%}
+{%- assign ikeynotes = kn[1] -%}
+
 {%- for ik in ikeynotes -%}
 {%- assign p = ik[0] | split: " " | reverse | join: " " -%}
 {%- assign keys = keys | append: ", " | append: p -%}
 {%- endfor -%}
+
+{%- endfor -%}
+
+{% assign len = keys | size | minus: 2 %}
+{% assign keys = keys | slice: 2, len %}
+
 {%- assign keys = keys | split: ", " -%}
 {%- assign keys = keys | sort -%}
 
-
-<!-- <div class="row divrow" id="keynote_scroll">
-{% for ik in keys %}
-{% assign mod = forloop.index0 | modulo: 3 %}
-{% if mod == 0 %}
-<div class="col-12"><div class="row">
-{% endif %}
-{% assign mem = ik | split: " " | reverse | join: " " %}
-<div class="col-sm-4">
-    <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid" style="width: 100%;" ></div>
-    <h5 class="text-center"><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h5>
-    <h5 class="text-center">{{ site.data.peoples[mem][1] | default: ""}}</h5>
-</div>
-{% assign mod = forloop.index | modulo: 3 %}
-{% if mod == 0 %}
-</div></div>
-{% endif %}
-{% endfor %}
-{% assign mod = keys.size | modulo: 3 %}
-{% if mod != 0 %}
-</div></div>
-{% endif %}
-
-</div> -->
-    
 <div id="carouselKeynoteIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause=false>
     <div class="carousel-inner">
         {% for ik in keys %}
@@ -128,35 +105,6 @@ Besides being a global technology hub, Bangalore is rightfully called the garden
 The conference is sandwiched between the two major Indian festivals, [Dussehera](https://en.wikipedia.org/wiki/Vijayadashami) and [Diwali](https://en.wikipedia.org/wiki/Diwali). In particular, the Mysore Dussehra in the nearby city of Mysore is arguably one of the most prominent cultural events of India. 
 
 
-
-
-<!-- #### Topics of Interest
-
-The areas of interest are broadly categorized into the following three streams:
-
-1. **Systems for AI/ML,** including but not limited to:  
-  * CPU/GPU architectures for AI/ML
-  * Embedded hardware for AI/ML workloads
-  * Data intensive systems for efficient and distributed training
-  * Challenges in production deployment of ML systems
-  * Efficient model training, optimization and inference
-  * Hardware efficient ML methods
-  * Resource-constrained ML
-
-1. **AI/ML for Systems,** including but not limited to: 
-  * AI/ML for VLSI and architecture design
-  * AI/ML in compiler optimization 
-  * AI/ML in data management - including database optimizations, virtualization, etc.
-  * AI/ML for networks - design of networks, load modeling, etc.
-  * AI/ML for power management - green computing, power models, etc.
-
-1. **Applications of AI/ML in Socio-Economic Systems Design,** which includes, but not limited to: 
-  * Computational design and analysis of socio-economic systems
-  * Fair and bias-free systems for social welfare, business platforms
-  * Applications of AI/ML in the design, short-/long-term analysis of cyber-physical systems
-  * Mechanism design for socio-economic systems
-  * Applications of AI/ML in financial systems
- -->
 
 #### Important Dates
 ##### Research Track

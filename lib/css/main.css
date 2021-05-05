@@ -211,11 +211,20 @@ body{
         width: auto;
         height: 30vh;
     }
+    .meity{
+        position: absolute;
+        width: 100%;
+    }
 }
 @media (min-width: 576px) {
     .primary-container .primary-container-col .carousel.homepage img {
         width: auto;
         height: 225px;
+    }
+
+    .meity{
+        position: absolute;
+        width: 576px;
     }
 }
 @media (min-width: 768px) {
@@ -223,11 +232,21 @@ body{
         width: auto;
         height: 300px;
     }
+
+    .meity{
+        position: absolute;
+        width: 768px;
+    }
 }
 @media (min-width: 992px) {
     .primary-container .primary-container-col .carousel.homepage img {
         width: auto;
         height: 263px;
+    }
+
+    .meity{
+        position: absolute;
+        width: 992px;
     }
 }
 @media (min-width: 1200px) {
@@ -235,11 +254,21 @@ body{
         width: auto;
         height: 313px;
     }
+
+    .meity{
+        position: absolute;
+        width: 1200px;
+    }
 }
 @media (min-width: 1400px) {
     .primary-container .primary-container-col .carousel.homepage img {
         width: auto;
         height: 363px;
+    }
+
+    .meity{
+        position: absolute;
+        width: 1400px;
     }
 }
 
