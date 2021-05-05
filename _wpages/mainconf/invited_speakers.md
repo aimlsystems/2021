@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Invited Speakers
-menutype: main-conf
 menu_order: 2
 ---
 
