@@ -38,11 +38,22 @@ layout: default
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row m-0 mt-1">
+        <div class="col-sm-9 p-0 pe-1">
+            <div class="row primary-container-row">
+                <div class="primary-container-col">
                     <div class="col">
                         {{ content }}
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="col-sm-3 sponsor-col">
+            {% include sponsor.html %}
         </div>
     </div>
 </div>
