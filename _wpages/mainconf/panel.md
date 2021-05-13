@@ -25,3 +25,7 @@ menu_order: 20
 </div>
 
 </div>
+
+#### Panel Chairs
+
+{% include function_chairs.html committee="Panel" %}
