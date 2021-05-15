@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Demo
-menutype: main-conf
-plink: demo
-menu_order: 30
+title: Call For Demonstration Proposals
+menutype: auth
+plink: demo_cfp
+menu_order: 15
 ---
-<br>
+
+### Call For Demonstration Proposals
 
 {:.text-justify}
 AIMLSystems invites submissions for software demonstration proposals. The emphasis of the demonstration program is on next-generation systems in the intersection of AI/ML and systems engineering. Proposals on prototypes that demonstrate new ideas in the following topics are highly encouraged.

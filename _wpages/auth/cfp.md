@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Call for Papers
+title: Call for Research Papers
 menutype: auth
 plink: cfp
 menu_order: 10
 ---
 
-### Call for Papers
+### Call for Research Papers
 
 {:.text-justify.pe-4}
 AIMLSystems is a brand new conference targeting research in the intersection of AI/ML
