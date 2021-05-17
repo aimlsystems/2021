@@ -40,11 +40,15 @@
                             {% endfor %}
                         </ul>
                     </li> -->
+
                     <li class="nav-item fs-7 border-end border-bottom border-white p-0 m-0">
-                        <a class="d-block nav-link px-2 py-0" href="{% include function_plink.html plink="keynote" %}">Keynotes</a>
+                        <a class="d-block nav-link px-2 py-0{% if page.plink == "best_awards" %} active{% endif %}" href="{% include function_plink.html plink="best_awards" %}">Awards</a>
                     </li>
                     <li class="nav-item fs-7 border-end border-bottom border-white p-0 m-0">
-                        <a class="d-block nav-link px-2 py-0" href="{% include function_plink.html plink="panel" %}">Panel</a>
+                        <a class="d-block nav-link px-2 py-0{% if page.plink == "keynote" %} active{% endif %}" href="{% include function_plink.html plink="keynote" %}">Keynotes</a>
+                    </li>
+                    <li class="nav-item fs-7 border-end border-bottom border-white p-0 m-0">
+                        <a class="d-block nav-link px-2 py-0{% if page.plink == "panel" %} active{% endif %}" href="{% include function_plink.html plink="panel" %}">Panel</a>
                     </li>
                     <!-- <li class="nav-item fs-7 border-end border-bottom border-white p-0 m-0">
                         <a class="d-block nav-link px-2 py-0" href="{% include function_plink.html plink="demo" %}">Demo</a>
@@ -86,7 +90,7 @@
                     </li> -->
 
                     <li class="nav-item fs-7 border-end border-bottom border-white p-0 m-0">
-                        <a class="d-block nav-link px-2 py-0" href="{{ site.baseurl }}/contacts">Contacts</a>
+                        <a class="d-block nav-link px-2 py-0{% if page.url == "/contacts" %} active{% endif %}" href="{{ site.baseurl }}/contacts">Contacts</a>
                     </li>
                     <!-- <li class="nav-item fs-6 border-end border-bottom border-white p-0 m-0">
                         <a class="d-block nav-link px-2 py-0" href="{{ site.baseurl }}/contacts">Contacts</a>
