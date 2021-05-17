@@ -1,11 +1,11 @@
 ---
 layout: page
-title: The Prof. Ram Kumar 'Best of AIML Systems’ Awards
+title: Prof. Ram Kumar 'Best of AIML Systems’ Awards
 plink: best_awards
 menu_order: 10
 ---
 
-### The Prof. Ram Kumar 'Best of AIML Systems’ Awards
+### Prof. Ram Kumar 'Best of AIML Systems’ Awards
 
 {:.text-justify}
 Created by a generous donation of the __Professor Ram Kumar Memorial Foundation__, the
@@ -36,7 +36,7 @@ For the year 2021, the award committee consists of the following eminent
 academicians (Tentative):
 
 * Prof. Anastasia Ailamaki, EPFL, Switzerland
+* Prof. Christos Faloutsos, CMU, USA
 * Prof. Masaru Kitsuregawa, Tokyo University, Japan
 * Prof. Tova Milo, Tel Aviv University, Israel
-* Prof. Christos Faloutsos, CMU, USA
 * Prof. Sunita Sarawagi, IIT Bombay, India
