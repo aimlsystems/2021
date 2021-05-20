@@ -26,7 +26,7 @@ menu_order: 20
 
 </div>
 
-##### Panelist
+##### Panelists
 <div class=row>
 {% assign committee = "Fosca Gionetti, Ashish Goel, Krishna Gummadi, Hima Lakkaraju" | split: ", " %}
 
