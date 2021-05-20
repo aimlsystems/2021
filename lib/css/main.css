@@ -467,3 +467,8 @@ body{
     margin: 5px auto;
     display: block;
 }
+
+img.incorp-img {
+    max-width: 100px;
+    max-height: 35px;
+}
