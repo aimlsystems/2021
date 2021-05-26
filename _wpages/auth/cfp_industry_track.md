@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Call for Papers Industrial Track
+title: Call for Industrial Track Papers
 menutype: auth
 plink: indus_cfp
-menu_order: 16
+menu_order: 14
 ---
 
 ### Call for Papers Industrial Track

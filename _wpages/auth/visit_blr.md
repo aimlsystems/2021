@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visiting Bangalore
-menutype: auth
+menutype: venue
 plink: visit_blr
 menu_order: 40
 ---

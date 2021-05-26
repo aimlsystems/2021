@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Venue
-menutype: auth
+menutype: venue
 plink: venue
 menu_order: 30
 ---

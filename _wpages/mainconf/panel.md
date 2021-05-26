@@ -6,7 +6,7 @@ plink: panel
 menu_order: 20
 ---
 
-#### Panel
+#### Invited Panel
 ##### Topic: _Making algorithmic decision systems unbiased_
 
 ##### Moderator
