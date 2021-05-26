@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visa
-menutype: auth
+menutype: venue
 menu_order: 50
 ---
 
