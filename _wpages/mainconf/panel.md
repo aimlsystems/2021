@@ -28,7 +28,7 @@ menu_order: 20
 
 ##### Panelists
 <div class=row>
-{% assign committee = "Fosca Gionetti, Ashish Goel, Krishna Gummadi, Hima Lakkaraju" | split: ", " %}
+{% assign committee = "Ricardo Baeza-Yates, Fosca Gionetti, Ashish Goel, Krishna Gummadi, Hima Lakkaraju, Srinivas Narayanan" | split: ", " %}
 
 {% assign sm-modulo = committee.size | modulo: 2 %}
 {% assign md-modulo = committee.size | modulo: 3 %}
