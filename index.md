@@ -106,16 +106,8 @@ The conference is sandwiched between the two major Indian festivals, [Dussehera]
 
 
 
-#### Important Dates
-##### Research Track
-* Abstract submissions due: June 13, 2021
-* Paper submissions due: June 20, 2021
-* Author notifications: September 12, 2021
-* Conference dates: October 21-23, 2021
-
-
----------------------------
-
+<!--  -->
+------------------------
 <div markdown=1 class=row>
 <div markdown=1 class=col>
 #### Call for Papers
