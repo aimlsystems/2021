@@ -26,11 +26,10 @@ The manuscripts can be submitted in PDF, formatted using ACM sigconf style throu
 
 
 #### Key Dates
-* Abstract submissions due: July 18, 2021 (11:59 IST - GMT+5.5hrs)
-* Proposal submissions due: July 25, 2021 (11:59 IST - GMT+5.5hrs)
-* Author notifications (Accept/Reject): September 12, 2021
-* Camera-ready submissions due: October 3, 2021
-* Conference dates: October 21-23, 2021
+* Submission deadline: July 13, 2021
+* Decision notification: September 12, 2021
+* Camera Ready: October 3, 2021
+* Conference Dates: October 21-23, 2021
 
 #### Dual Submission Policy
 
