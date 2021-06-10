@@ -1,3 +1,0 @@
-#Steps
-bundle init
-bundle exec jekyll serve --incremental

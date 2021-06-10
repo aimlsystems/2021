@@ -1,12 +1,8 @@
 ---
-layout: page
-title: Contact Us
-menutype: base
-menutitle: Contact Us
-permalink: /contacts
+layout: other
+title: Contact
+menutitle: Contact
 ---
-
-<!-- ### Contact Us -->
 
 &nbsp;
 
