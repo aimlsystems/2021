@@ -1,11 +1,8 @@
 ---
-layout: page
-title: Prof. Ram Kumar 'Best of AIML Systems’ Awards
-plink: best_awards
-menu_order: 10
+layout: other
+title: Awards
+menutitle: Awards
 ---
-
-### Prof. Ram Kumar 'Best of AIML Systems’ Awards
 
 {:.text-justify}
 Created by a generous donation of the __Professor Ram Kumar Memorial Foundation__, the

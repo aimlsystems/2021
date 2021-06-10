@@ -1,9 +1,0 @@
-{%- for node in site.wpages -%}
-{%- if node.plink == include.plink -%}
-{{- site.baseurl -}}{{- node.url -}}
-{%- if include.bookmark -%}
-#{{- include.bookmark -}}
-{%- endif -%}
-{%- break -%}
-{%- endif -%}
-{%- endfor -%}
