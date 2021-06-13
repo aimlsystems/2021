@@ -291,6 +291,10 @@ input, select, textarea {
 			margin-left: 33.33333%;
 		}
 
+		.row > .off-4h {
+			margin-left: 37.5%;
+		}
+
 		.row > .col-5 {
 			width: 41.66667%;
 		}
