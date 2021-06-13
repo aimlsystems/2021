@@ -2105,7 +2105,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 35em;
+			height: 40em;
 		}
 
 /* Logo */
@@ -2928,9 +2928,9 @@ input, select, textarea {
 				height: 17em;
 			}
 
-				/* .homepage #header {
-					height: 20em;
-				} */
+				.homepage #header {
+					height: 35em;
+				}
 
 		/* Logo */
 
