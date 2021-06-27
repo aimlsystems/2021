@@ -32,8 +32,3 @@ committee members are ineligible to receive the award.
 For the year 2021, the award committee consists of the following eminent
 academicians (Tentative):
 
-* Prof. Anastasia Ailamaki, EPFL, Switzerland
-* Prof. Christos Faloutsos, CMU, USA
-* Prof. Masaru Kitsuregawa, Tokyo University, Japan
-* Prof. Tova Milo, Tel Aviv University, Israel
-* Prof. Sunita Sarawagi, IIT Bombay, India
