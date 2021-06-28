@@ -28,7 +28,5 @@ Awards are selected by a committee of leaders in the field. The program chairs
 recommend up to three candidates for each category to the award committee. Current
 committee members are ineligible to receive the award.
 
-{:.text-justify}
-For the year 2021, the award committee consists of the following eminent
-academicians (Tentative):
+
 
