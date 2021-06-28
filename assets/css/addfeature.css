@@ -185,6 +185,12 @@ ul.copyright li {
     padding: 0 0.9em 0 0.9em;
 }
 
+@media screen and (max-width: 991px) {
+    #nav > ul > li {
+        padding: 0 0.8em 0 0.8em;
+    }
+}
+
 
 .nt-panel-title {
     font-size: 1.5em;
@@ -250,3 +256,10 @@ a.fa {
     font-weight: 500;
 }
 
+#logo .showcountdowncls h4 {
+    text-transform: none;
+}
+
+#logo .showcountdowncls h2 {
+    font-weight: 700;
+}
