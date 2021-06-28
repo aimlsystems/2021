@@ -46,28 +46,31 @@ Topics of interest include AI/ML systems machine learning applications in all ma
 Please select the “Industry and Applications” track on CMT.
 
 **Reviewers**
-Abhinav Jain, None, India
-Aniya Aggarwal, IBM Research, India
-Anshumali Shrivastava, Rice University,
-Atri Mandal, IBM research, India
-Chunbin Lin, Amazon AWS, United States
-Evelyn Duesterwald, IBM Research AI, United States
-George Papadakis, University of Athens, Greece
-Hima Patel, IBM Research, India
-Himanshu Bhatt, Amex
-Ioana Manolescu, Inria and Institut Polytechnique de Paris, France
-Konstantinos Karanasos, Microsoft, United States
-Laure Berti-Equille, IRD, France
-Lokesh Nagalapatti, IIT Bombay, India
-Manoj Chinnakotla, Microsoft,India,
-Rahul Ghosh, American Express,
-sandya mannarswamy, Conduent Labs, India
-Shanmukh Guttula, IBM Research, India
-Shashank Mujumdar, IBM Research, India, India
-Shourya Roy, Flipkart, India
-Srikanta Bedathur, IIT Delhi, India
-Tridib Mukherjee, Games24x7, India
-Yeye He, Microsoft Research, United States
+
+* Aniya Aggarwal, IBM Research, India
+* Srikanta Bedathur, IIT Delhi, India
+* Laure Berti-Equille, IRD, France
+* Himanshu Bhatt, Amex
+* Manoj Chinnakotla, Microsoft, India
+* Evelyn Duesterwald, IBM Research AI, United States
+* Rahul Ghosh, American Express
+* Shanmukh Guttula, IBM Research, India
+* Yeye He, Microsoft Research, United States
+* Abhinav Jain, None, India
+* Konstantinos Karanasos, Microsoft, United States
+* Chunbin Lin, Amazon AWS, United States
+* Atri Mandal, IBM research, India
+* sandya mannarswamy, Conduent Labs, India
+* Ioana Manolescu, Inria and Institut Polytechnique de Paris, France
+* Shashank Mujumdar, IBM Research, India, India
+* Tridib Mukherjee, Games24x7, India
+* Lokesh Nagalapatti, IIT Bombay, India
+* George Papadakis, University of Athens, Greece
+* Hima Patel, IBM Research, India
+* Shourya Roy, Flipkart, india
+* Anshumali Shrivastava, Rice University,
+
+
 
 
 #### Industry Track Chairs:
