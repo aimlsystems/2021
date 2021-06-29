@@ -45,7 +45,8 @@ Topics of interest include AI/ML systems machine learning applications in all ma
 
 Please select the “Industry and Applications” track on CMT.
 
-**Reviewers**
+{:#PC}
+**Program Committee**
 
 * Aniya Aggarwal, IBM Research, India
 * Srikanta Bedathur, IIT Delhi, India
@@ -60,7 +61,7 @@ Please select the “Industry and Applications” track on CMT.
 * Konstantinos Karanasos, Microsoft, United States
 * Chunbin Lin, Amazon AWS, United States
 * Atri Mandal, IBM research, India
-* sandya mannarswamy, Conduent Labs, India
+* Sandya Mannarswamy, Intel, India
 * Ioana Manolescu, Inria and Institut Polytechnique de Paris, France
 * Shashank Mujumdar, IBM Research, India, India
 * Tridib Mukherjee, Games24x7, India
