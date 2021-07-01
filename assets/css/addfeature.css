@@ -1,4 +1,11 @@
 
+
+
+body, input, textarea, select {
+    color: #000;
+}
+
+
 .nt-img-block {
     /* float: left; */
     /* height: 70px;
@@ -229,6 +236,7 @@ ul.copyright {
 
 .incoop-row {
     margin-top: 0;
+    color: #fff;
 }
 
 .incoop-row > div {
@@ -262,4 +270,133 @@ a.fa {
 
 #logo .showcountdowncls h2 {
     font-weight: 700;
+}
+
+
+/* asdad */
+.text-center {
+    text-align: center;
+}
+
+/* CALL OUTS */
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.bd-callout-info {
+    border-left-color: #5bc0de;
+}
+
+.bd-callout-warning {
+    border-left-color:#f0ad4e
+}
+.bd-callout-danger {
+    border-left-color:#d9534f
+}
+.bd-callout code {
+    border-radius:.25rem
+}
+.bd-callout > * {
+    margin-bottom: 0;
+}
+
+/* ALERT */
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.alert-primary {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
+.alert-secondary {
+    color: #41464b;
+    background-color: #e2e3e5;
+    border-color: #d3d6d8;
+}
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+.alert-warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+}
+.alert-info {
+    color: #055160;
+    background-color: #cff4fc;
+    border-color: #b6effb;
+}
+.alert-light {
+    color: #636464;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+}
+.alert-dark {
+    color: #141619;
+    background-color: #d3d3d4;
+    border-color: #bcbebf;
+}
+
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 23px;
+}
+table {
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #f9f9f9;
+}
+.table-hover > tbody > tr, .table-hover > tbody > tr > th, .table-hover > tbody > tr > td {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.table-hover > tbody > tr, .table-hover > tbody > tr > th, .table-hover > tbody > tr > td {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: revert;
+}
+
+.highlight-text {
+    background-color: yellow;
+}
+
+td.fee-type {
+    width: 60%;
+}
+
+td.fee-value {
+    width: 40%;
+    padding-right: 20%;
+    text-align: right;
 }
