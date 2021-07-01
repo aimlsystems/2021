@@ -1,33 +1,31 @@
 "author-local" :
   title: "Registration Fees for Authors: Local Delegates"
   fees: 
-    IEEE/ACM Member: ₹ 10,000
+    ACM Member: ₹ 10,000
     Non-Member: ₹ 12,000
-    IEEE/ACM Student Member: ₹ 4,000
+    ACM Student Member: ₹ 4,000
     Student Non Member: ₹ 5,000
 
 "non-author-local" :
   title: "Registration Fees for Non-Authors: Local Delegates"
   fees: 
-    IEEE/ACM Member: ₹ 5,000
+    ACM Member: ₹ 5,000
     Non-Member: ₹ 7,000
-    IEEE Life Member: ₹ 2,000
-    IEEE/ACM Student Member: ₹ 2,000
+    ACM Student Member: ₹ 2,000
     Student Non Member: ₹ 3,000
 
 "author-int" :
   title: "Registration Fees for Authors: International Delegates"
   fees: 
-    IEEE/ACM Member: $ 350
+    ACM Member: $ 350
     Non-Member: $ 450
-    IEEE/ACM Student Member: $ 150
+    ACM Student Member: $ 150
     Student Non Member: $ 200
 
 "non-author-int" :
   title: "Registration Fees for Non-Authors: International Delegates"
   fees: 
-    IEEE/ACM Member: $ 75
+    ACM Member: $ 75
     Non-Member: $ 100
-    IEEE Life Member: $ 25
-    IEEE/ACM Student Member: $ 45
+    ACM Student Member: $ 45
     Student Non Member: $ 60
