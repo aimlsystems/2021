@@ -16,8 +16,8 @@ menutitle: Conference Registration
 
 <div markdown=1 class="bd-callout bd-callout-info">
 ### Registration Fees
-1. The AIMLSystems'21 registration fee details for **International Delegates** is available [here]({{ site.baseurl }}/registration_fees#local_delegates).
-1. The AIMLSystems'21 registration fee details for **Indian (Local) Delegates** is available [here]({{ site.baseurl }}/registration_fees#int_delegates).
+1. The AIMLSystems'21 registration fee details for **International Delegates** is available [here]({{ site.baseurl }}/registration_fees#int_delegates).
+1. The AIMLSystems'21 registration fee details for **Indian (Local) Delegates** is available [here]({{ site.baseurl }}/registration_fees#local_delegates).
 </div>
 
 <div markdown=1 class="bd-callout bd-callout-info">
