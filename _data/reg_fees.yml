@@ -17,15 +17,15 @@
 "author-int" :
   title: "Registration Fees for Authors: International Delegates"
   fees: 
-    ACM Member: $ 350
-    Non-Member: $ 450
-    ACM Student Member: $ 150
-    Student Non Member: $ 200
+    ACM Member: US$ 350
+    Non-Member: US$ 450
+    ACM Student Member: US$ 150
+    Student Non Member: US$ 200
 
 "non-author-int" :
   title: "Registration Fees for Non-Authors: International Delegates"
   fees: 
-    ACM Member: $ 75
-    Non-Member: $ 100
-    ACM Student Member: $ 45
-    Student Non Member: $ 60
+    ACM Member: US$ 75
+    Non-Member: US$ 100
+    ACM Student Member: US$ 45
+    Student Non Member: US$ 60

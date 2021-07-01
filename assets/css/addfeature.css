@@ -400,3 +400,10 @@ td.fee-value {
     padding-right: 20%;
     text-align: right;
 }
+
+.pb1{
+    padding-bottom: 1em;
+}
+.mb1{
+    margin-bottom: 1em;
+}
