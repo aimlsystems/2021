@@ -13,7 +13,7 @@ menutitle: Registration Fee Details
 1. We can allow one registration for upto two papers (by the same set of authors). The third paper (whatever be the category) by the same author/s must be registered (therefore, this would be the second registration).
 </div>
 
-
+<a id="local_delegates"></a>
 # Local Delegates
 
 <b class="highlight-text">**All the fees are excluding GST. Additional GST@18% will be added at the payment page.</b>
@@ -25,6 +25,7 @@ menutitle: Registration Fee Details
 
 ----
 
+<a id="int_delegates"></a>
 # International Delegates
 
 <b class="highlight-text">**All the fees are excluding GST. Additional GST@18% will be added at the payment page.</b>
