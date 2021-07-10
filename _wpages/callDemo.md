@@ -25,7 +25,7 @@ The manuscripts can be submitted in PDF, formatted using ACM sigconf style throu
 
 
 #### Key Dates
-* Submission deadline: July 13, 2021
+* Submission deadline: July 20, 2021
 * ~~Submission deadline: July 13, 2021~~
 * Decision notification: September 12, 2021
 * Camera Ready: October 3, 2021
