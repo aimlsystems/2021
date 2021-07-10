@@ -35,7 +35,8 @@ Topics of interest include AI/ML systems machine learning applications in all ma
 {:.text-justify}
 **Reviewing process:** All submissions will be single blind. Authors are allowed to post their paper on arXiv or other public forums. Key dates related to the reviewing process are given below:
 
-* Submission deadline: July 13, 2021
+* ~~Submission deadline: July 13, 2021~~
+* Submission deadline: July 20, 2021
 * Decision notification: September 12, 2021
 * Camera Ready:  October 3, 2021
 * Conference Dates:  October 21-23, 2021
