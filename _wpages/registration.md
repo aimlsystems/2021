@@ -5,11 +5,18 @@ menutitle: Conference Registration
 ---
 
 <div class="row">
-<div class="col-12 text-center">
+<div class="off-3 col-3 text-center">
     <a href="{{ site.baseurl }}/registration_fees">
         <img src="{{ site.baseurl }}/images/registration_fees.png">
         <br>
         <label><strong>Registration Fees</strong></label>
+    </a>
+</div>
+<div class="col-3 text-center">
+    <a href="https://www.townscript.com/v2/widget/first-international-conference-on-aiml-systems-342034/booking" target="_popup">
+        <img src="{{ site.baseurl }}/images/form.png">
+        <br>
+        <label><strong>Register Now</strong></label>
     </a>
 </div>
 </div>
