@@ -407,3 +407,14 @@ td.fee-value {
 .mb1{
     margin-bottom: 1em;
 }
+@keyframes alert-attention {
+    0%   {color: red;}
+    33%  {color: blue;}
+    67% {color: green;}
+}
+.text-attention {
+    font-weight: 900;
+    animation-name: alert-attention;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
