@@ -1,3 +1,12 @@
+.row > * {
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.row {
+    margin-top: 0;
+    margin-left: 0;;
+}
 
 
 
@@ -418,3 +427,4 @@ td.fee-value {
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
