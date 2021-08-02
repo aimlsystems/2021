@@ -2113,7 +2113,7 @@ input, select, textarea {
 	#logo {
 		width: 100%;
 		text-align: center;
-		position: relative;
+		position: absolute;
 		top: 1.5em;
 	}
 
@@ -2159,12 +2159,17 @@ input, select, textarea {
 			font-size: 0.9em;
 		}
 
+	/* #maintitle {
+		position: absolute;
+		bottom: 2.5em;
+		height: 10em;
+	} */
 /* Nav */
 
 	#nav {
 		position: absolute;
 		display: block;
-		top: 2.5em;
+		bottom: 2.5em;
 		left: 0;
 		width: 100%;
 		text-align: center;

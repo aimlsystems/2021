@@ -62,5 +62,14 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
+			// $(window).scrollTop($('#menutitle1').offset().top);
 
 })(jQuery);
+
+$(document).ready(function(){
+	if(window.location.hash=="" && _HOME_PAGE_ == false) {
+		var ele = $('#logo')
+		$(window).scrollTop(ele.offset().top + ele.height());
+		// $('#maintitle1')[0].scrollIntoView(true);
+	}
+})
