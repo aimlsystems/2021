@@ -47,7 +47,6 @@ A one-page information sheet that includes the following:
 * Please go through the committee members of all the tracks to list upto 5 people in the AI ML community as a suggestion for mentors for yourself during the AIMLSystems Doctoral Symposium.
 * List of up to 5 keywords 
 
-Accepted submissions will be published in the proceedings.
 
 Submission site: [https://cmt3.research.microsoft.com/AIMLSystems2021/](https://cmt3.research.microsoft.com/AIMLSystems2021/).
 
