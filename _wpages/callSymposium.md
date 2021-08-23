@@ -64,7 +64,8 @@ Please feel free to contact any of the organizing committee for any questions re
 
 
 ##### Key Dates
-* Paper submissions due: August 22, 2021
+* ~~Paper submissions due: August 22, 2021~~
+* Paper submissions due: August 30, 2021
 * Author notifications (Accept/Reject): September 12, 2021
 * Camera-ready submissions due: October 3, 2021
 * Conference dates: October 21-23, 2021
