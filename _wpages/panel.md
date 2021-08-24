@@ -31,10 +31,13 @@ title: Panel Discussion
 </div>
 </div>
 
-##### Panelists
-<div class=row>
 {% assign committee = panel.panelist %}
 
+{% if committee.size > 0 %}
+
+{:.nt-panel-title}
+##### Panelists
+<div class=row>
 {% assign sm-modulo = committee.size | modulo: 2 %}
 {% assign md-modulo = committee.size | modulo: 3 %}
 {% for mem in committee %}
@@ -64,5 +67,8 @@ title: Panel Discussion
 {% endfor %}
 </div>
 
+{% endif %}
+
+------
 
 {% endfor %}
