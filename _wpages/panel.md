@@ -3,10 +3,10 @@ layout: other
 title: Panel Discussion
 ---
 
-{:.nt-header}
-## Panel Discussion
-
 {% for panel in site.data.panels %}
+
+{:.nt-header}
+## Panel Discussion {{ forloop.index }}
 
 {:.nt-panel-title}
 ##### Topic: _{{ panel.topic }}_
