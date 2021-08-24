@@ -6,14 +6,16 @@ title: Panel Discussion
 {:.nt-header}
 ## Panel Discussion
 
+{% for panel in site.data.panels %}
+
 {:.nt-panel-title}
-##### Topic: _Making algorithmic decision systems unbiased_
+##### Topic: _{{ panel.topic }}_
 
 {:.nt-panel-title}
 ##### Moderator
 
 <div class="row">
-{% assign mem="Y. Narahari" %}
+{% assign mem = panel.moderator %}
 <div class="off-3 off-0-medium col-6 col-12-medium">
     <div class="row">
         <div class="col-3">
@@ -27,20 +29,15 @@ title: Panel Discussion
         </div>
     </div>
 </div>
-<!-- <div class="col-12 offset-sm-3 col-sm-6 offset-md-4 col-md-4 p-4">
-    <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid" style="width: 100%;" ></div>
-    <h5 class="text-center"><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h5>
-    <h5 class="text-center">{{ site.data.peoples[mem][1] | default: ""}}</h5>
-    <h5 class="text-center">
-    </h5>
-</div> -->
-
 </div>
 
+{% assign committee = panel.panelist %}
+
+{% if committee.size > 0 %}
+
+{:.nt-panel-title}
 ##### Panelists
 <div class=row>
-{% assign committee = "Ricardo Baeza-Yates, Fosca Gionetti, Ashish Goel, Krishna Gummadi, Hima Lakkaraju, Srinivas Narayanan" | split: ", " %}
-
 {% assign sm-modulo = committee.size | modulo: 2 %}
 {% assign md-modulo = committee.size | modulo: 3 %}
 {% for mem in committee %}
@@ -67,10 +64,11 @@ title: Panel Discussion
         </div>
     </div>
 </div>
-<!-- <div class="col-12 offset-sm-{{ sm-offset }} col-sm-6 offset-md-{{ md-offset }} col-md-4 p-4">
-    <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid" style="width: 100%;" ></div>
-    <h5 class="text-center"><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h5>
-    <h5 class="text-center">{{ site.data.peoples[mem][1] | default: ""}}</h5>
-</div> -->
 {% endfor %}
 </div>
+
+{% endif %}
+
+------
+
+{% endfor %}
