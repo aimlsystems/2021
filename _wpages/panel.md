@@ -5,6 +5,10 @@ title: Panel Discussion
 
 {% for panel in site.data.panels %}
 
+{% if forloop.first == false %}
+------
+{% endif %}
+
 {:.nt-header}
 ## Panel Discussion {{ forloop.index }}
 
@@ -68,7 +72,5 @@ title: Panel Discussion
 </div>
 
 {% endif %}
-
-------
 
 {% endfor %}

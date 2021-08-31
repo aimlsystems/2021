@@ -37,6 +37,7 @@ Industry Insights:
     - 
 
   Rajeev Rastogi:
-    - 
-    - 
+    title: Machine Learning Modeling Best Practices
+    abstract: I will talk about best practices when developing Machine Learning models such as generating uncertainty estimates for predictions, balancing exploitation with exploration, generating explanations for predictions, handling noise in training data, etc. I will show how we apply these modeling best practices at Amazon using real-world examples from our India e-commerce business.
+    bio: Rajeev Rastogi is the Vice President of Machine Learning at Amazon India. He leads the development of Machine Learning solutions for Amazon’s India business in the areas of Search, Advertising, Deals, Catalog Quality, Payments, Forecasting, Question Answering, Grocery Grading, etc. Previously, he was Vice President of Yahoo! Labs Bangalore and the founding Director of the Bell Labs Research Center in Bangalore, India. Rajeev is an ACM Fellow and a Bell Labs Fellow. He has published over 125 papers, and holds over 100 patents. Rajeev received his B. Tech degree from IIT Bombay, and a PhD degree in Computer Science from the University of Texas, Austin.
 
