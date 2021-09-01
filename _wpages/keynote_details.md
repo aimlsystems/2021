@@ -4,6 +4,7 @@ title: Keynotes Speeches
 ---
 
 {% for cat in site.data.keynote_speakers %}
+{% assign catId = forloop.index %}
 {% assign speakers = cat[1] %}
 {% if forloop.first == false %} 
 <br>
@@ -13,9 +14,12 @@ title: Keynotes Speeches
 <h3 class="nt-panel-title">{{ cat[0] }} Keynotes </h3>
 
 <div class="row oc_cntr">
+<div class="col-12">
 {% assign sm-modulo = speakers.size | modulo: 2 %}
 {% assign md-modulo = speakers.size | modulo: 3 %}
+
 {% for speaker in speakers %}
+
 {% assign mem = speaker[0] %}
 {% assign detail = speaker[1] %}
 
@@ -31,31 +35,39 @@ title: Keynotes Speeches
 {% assign md-offset = "2" %}
 {% endif %}
 
-<div class="col-6 col-12-medium">
-    <div class="row">
-        <div class="col-3">
-            <img class="img-fuild" style="max-width: 120px; max-height: auto;" src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}">
-        </div>
-        <div class="col-9">
-            <div class="nt-feature-pad">
-                <h3><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h3>
-                <p>{{ site.data.peoples[mem][1] | default: ""}}</p>
+{% if detail['title'] == nil %}
+{% continue %}
+{% endif %}
+
+<a id="keynote_{{ forloop.index }}_{{ catId }}"></a>
+<div class="row">
+    <div class="col-3 col-12-medium">
+        <div class="row text-center">
+            <div class="col-12">
+                <img class="img-fuild" style="max-width: 120px; max-height: auto;" src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}">
+            </div>
+            <div class="col-12">
+                <div class="nt-feature-pad">
+                    <h3><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h3>
+                    <p>{{ site.data.peoples[mem][1] | default: ""}}</p>
+                </div>
             </div>
         </div>
     </div>
+    <div class="col-9 col-12-medium">
+        <h4>{{ detail['title'] }}</h4>
+        {% if detail['abstract'] %}
+        <div class="text-justify"><b>Abstract:</b> {{ detail['abstract'] }}</div>
+        {% endif %}
+        {% if detail['bio'] %}
+        <div class="text-justify"><b>Bio:</b> {{ detail['bio'] }}</div>
+        {% endif %}
+    </div>
 </div>
-
-<!-- <div class="col-12 offset-sm-{{ sm-offset }} col-sm-6 offset-md-{{ md-offset }} col-md-4 p-4">
-    <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid" style="width: 100%;" ></div>
-    <h5 class="text-center"><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h5>
-    <h5 class="text-center">{{ site.data.peoples[mem][1] | default: ""}}</h5>
-    <h5 class="text-center">
-
-    </h5>
-</div> -->
 
 
 {% endfor %}
+</div>
 </div>
 
 {% endfor %}
