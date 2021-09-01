@@ -4,6 +4,7 @@ title: Keynote Speakers
 ---
 
 {% for cat in site.data.keynote_speakers %}
+{% assign catId = forloop.index %}
 {% assign speakers = cat[1] %}
 {% if forloop.first == false %} 
 <br>
@@ -39,7 +40,10 @@ title: Keynote Speakers
         <div class="col-9">
             <div class="nt-feature-pad">
                 <h3><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h3>
-                <p>{{ site.data.peoples[mem][1] | default: ""}}</p>
+                <div>{{ site.data.peoples[mem][1] | default: ""}}</div>
+                {%- if detail['title'] -%}
+                <p><a href="{{ site.baseurl }}/keynote_details#keynote_{{ forloop.index }}_{{ catId }}">Detail</a></p>
+                {%- endif -%}
             </div>
         </div>
     </div>

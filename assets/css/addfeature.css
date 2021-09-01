@@ -287,6 +287,10 @@ a.fa {
     text-align: center;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 /* CALL OUTS */
 .bd-callout {
     padding: 1.25rem;
