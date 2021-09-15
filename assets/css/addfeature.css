@@ -432,3 +432,13 @@ td.fee-value {
     animation-iteration-count: infinite;
 }
 
+
+
+.float-end {
+    float: right;
+}
+
+.img-blore {
+    max-width: 200px;
+    max-height: 200px;
+}
