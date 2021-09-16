@@ -198,12 +198,15 @@ ul.copyright li {
 #nav > ul > li {
     display: inline-block;
     text-align: center;
-    padding: 0 0.9em 0 0.9em;
+    padding: 0 0.5em 0 0.5em;
 }
 
 @media screen and (max-width: 991px) {
     #nav > ul > li {
-        padding: 0 0.8em 0 0.8em;
+        padding: 0 0.5em 0 0.5em;
+    }
+    #nav > ul > li > a, #nav > ul > li > span {
+        font-size: 0.7em;
     }
 }
 
@@ -441,4 +444,29 @@ td.fee-value {
 .img-blore {
     max-width: 200px;
     max-height: 200px;
+}
+
+
+::before, ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
 }
