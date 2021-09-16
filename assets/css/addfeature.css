@@ -179,7 +179,7 @@ ul.copyright li {
     color: rgba(255, 255, 255, 0.75);
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1em;
+    font-size: .9em;
     letter-spacing: 0em;
     height: 3em;
     line-height: 3em;
@@ -202,6 +202,15 @@ ul.copyright li {
 }
 
 @media screen and (max-width: 991px) {
+    #nav > ul > li {
+        padding: 0 0.5em 0 0.5em;
+    }
+    #nav > ul > li > a, #nav > ul > li > span {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
     #nav > ul > li {
         padding: 0 0.5em 0 0.5em;
     }
