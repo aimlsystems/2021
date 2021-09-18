@@ -12,6 +12,9 @@ title: Panel Discussion
 {:.nt-header}
 ## Panel Discussion {{ forloop.index }}
 
+{:.text-center}
+### {{ panel.time }}
+
 {:.nt-panel-title}
 ##### Topic: _{{ panel.topic }}_
 
