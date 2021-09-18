@@ -57,10 +57,30 @@ title: Keynotes Speeches
     <div class="col-9 col-12-medium">
         <h4>{{ detail['title'] }}</h4>
         {% if detail['abstract'] %}
-        <div class="text-justify"><b>Abstract:</b> {{ detail['abstract'] }}</div>
+
+        {% for d in detail['abstract'] %}
+        <div class="text-justify">
+            {% if forloop.first %}
+            <b>Abstract:</b> 
+            {% else %}
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            {% endif %}
+            {{ d }}
+        </div>
+        {% endfor %}
         {% endif %}
-        {% if detail['bio'] %}
-        <div class="text-justify"><b>Bio:</b> {{ detail['bio'] }}</div>
+
+        {% if site.data.bio[mem] %}
+        {% for b in site.data.bio[mem] %}
+        <div class="text-justify">
+            {% if forloop.first %}
+            <b>Bio:</b> 
+            {% else %}
+                &nbsp;&nbsp;&nbsp;&nbsp;
+            {% endif %}
+            {{ b }}
+        </div>
+        {% endfor %}
         {% endif %}
     </div>
 </div>
@@ -73,3 +93,5 @@ title: Keynotes Speeches
 </div>
 
 {% endfor %}
+
+
