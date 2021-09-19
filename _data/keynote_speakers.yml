@@ -13,8 +13,9 @@ Research:
 
 
   Sergei Kuznetsov:
-    - 
-    - 
+    title: Learning Rules and Taxonomies for Better Explanation
+    abstract: 
+      - The new wave of interest to rule learning is caused by the shortcomings of Deep Learning models and the growing need for Interpretable and Explainable AI. In this talk we consider the issues of rule learning in its relationship to learning taxonomies of subject domains given by exemplars and their descriptions.  In spite of the fact that complexity of generating compact representation of rules is generally intractable, certain realistic constraints and approximation schemes result in efficient algorithmic approaches.
 
   Geoff Webb:
     - 
