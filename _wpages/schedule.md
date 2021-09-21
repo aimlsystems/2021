@@ -200,7 +200,7 @@ title: Schedule
             <br />
             Moderator: Prof. Y. Narahari, IISc Bangalore, India
             <br />
-            Panelists: Fosca Gionetti (Pisa), Ashish Goel (Stanford), Krishna Gummadi (Max Planck), Himabindu Lakkaraju (Harvard), Fernando Pareira (Google)
+            Panelists: Ricardo Baeza-Yates (Chile), Fosca Gionetti (Pisa), Ashish Goel (Stanford), Krishna Gummadi (Max Planck), Himabindu Lakkaraju (Harvard), Fernando Pareira (Google)
           </h1>
         </td>
       </tr>
