@@ -29,6 +29,41 @@ Research:
 
 Industry Insights:
   Anand Deshpande:
+    title: Deploying Machine Learning to help make Better Decisions
+    abstract:
+      - 
+        - In August 2011, Marc Andressen wrote a prophetic article in the Wall Street
+        - Journal, explaining how he believed industries would transform as “Software
+        - was Eating the World.” Over the last ten years, this theme has played out as
+        - Companies across sectors have focused on Digital Transformation. The first
+        - iteration of Digital Transformation focused on building better experiences for
+        - stakeholders. Bringing data together was essential for creating better
+        - experiences, which led to deploying APIs, data lakes and other data
+        - middleware.
+      -
+        - The success of Digital Transformation has resulted in data systems with
+        - better experiences. However, having fancy dashboards and better user
+        - experiences has not necessarily provided insights to individuals to make
+        - better decisions. Digital Transformation 2.0 will address this and will be about
+        - assisting stakeholders in making better decisions.
+        - In this session, I propose to share how machine learning and artificial
+        - intelligence can exploit the data infrastructure we have set up to help make
+        - better decisions.
+      -
+        - We have created an internal data lake that collects data from different internal
+        - data sources. In the last three years, our team at Persistent Systems has
+        - experimented with building systems that embed machine learning and
+        - artificial intelligence in our processes and automation to deliver precise
+        - guidance to stakeholders to make better decisions. As we started our
+        - experiments focusing on better decisions, we realized that the data we had
+        - collected was not best suited to derive our insights. We also observed that
+        - traditional business intelligence dashboards can be overwhelming and do not
+        - necessarily provide the insights for better decisions.
+      -
+        - In this session, I propose sharing what we have done and what we learned
+        - from these experiments as we embedded machine learning in our processes
+        - and as part of our automation infrastructure. This has helped our team get
+        - better insights precisely when needed.
     
 
   Daniel Keller:
