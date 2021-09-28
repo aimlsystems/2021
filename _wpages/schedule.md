@@ -228,6 +228,17 @@ title: Schedule
           </h1>
         </td>
       </tr>
+      <tr>
+        <td class="sc-bgcolor-even">
+          <h1>
+            <span class="sc-color-3">AIMLSystems Welcome Reception</span>
+            <br />
+            Venue: Alchemy, Chancery Pavilion
+            <br />
+            8:00 PM &ndash; 10:00 PM
+          </h1>
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -281,6 +292,17 @@ title: Schedule
           <h1><span style="text-decoration: underline;">Keynote Talk # 4</span><br />7:15 PM &ndash; 8:15 PM<br />Sergei Kuznetsov<br />HSE University, Moscow, Russia</h1>
         </td>
       </tr>
+      <tr>
+        <td class="sc-bgcolor-even">
+          <h1>
+            <span class="sc-color-3">AIMLSystems Banquet</span>
+            <br />
+            Venue: Pool Side, Chancery Pavilion
+            <br />
+            8:00 PM &ndash; 11:00 PM
+          </h1>
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -328,6 +350,17 @@ title: Schedule
         <td class="sc-bgcolor-odd sc-color-3">
           <h1><span style="text-decoration: underline;">Industry Insights Keynote # 4</span><br />Rajeev Rastogi, Amazon, India<br />6:15 PM &ndash; 7:00 PM</h1>
           <h1><span style="text-decoration: underline;">Keynote Talk # 6</span><br />Sang Cha<br />Seoul National University, Korea<br />7:00 PM &ndash; 8:00 PM</h1>
+        </td>
+      </tr>
+      <tr>
+        <td class="sc-bgcolor-even">
+          <h1>
+            <span class="sc-color-3">Cocktails &amp; Dinner</span>
+            <br />
+            Venue: Sigma Foyer, Chancery Pavilion
+            <br />
+            8:00 PM &ndash; 11:00 PM
+          </h1>
         </td>
       </tr>
     </tbody>
