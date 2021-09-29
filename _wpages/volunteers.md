@@ -1,36 +1,13 @@
 ---
 layout: other
-title: Keynote Speakers
+title: Volunteers
 ---
 
-{% for cat in site.data.keynote_speakers %}
-{% assign catId = forloop.index %}
-{% assign speakers = cat[1] %}
-{% if forloop.first == false %} 
-<br>
-<hr>
-<br>
-{% endif %}
-<h3 class="nt-panel-title">{{ cat[0] }} Keynotes </h3>
-
-<div class="row oc_cntr">
-{% assign sm-modulo = speakers.size | modulo: 2 %}
-{% assign md-modulo = speakers.size | modulo: 3 %}
+{% assign speakers = "Avaneesh, Tanmay Jain, Harsh Pandey, Utkalika Satapathy, Shivangi" | split: ", " %}
+<div class="row">
 {% for speaker in speakers %}
-{% assign mem = speaker[0] %}
-{% assign detail = speaker[1] %}
+{% assign mem = speaker %}
 
-{% assign sm-offset = "0" %}
-{% if forloop.last and sm-modulo==1 %}
-{% assign sm-offset = "3" %}
-{% endif %}
-
-{% assign md-offset = "0" %}
-{% if forloop.last and md-modulo==1 %}
-{% assign md-offset = "4" %}
-{% elsif forloop.rindex==2 and md-modulo==2 %}
-{% assign md-offset = "2" %}
-{% endif %}
 
 <div class="col-6 col-12-medium">
     <div class="row">
@@ -41,9 +18,6 @@ title: Keynote Speakers
             <div class="nt-feature-pad">
                 <h3><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h3>
                 <div>{{ site.data.peoples[mem][1] | default: ""}}</div>
-                {%- if detail['title'] -%}
-                <p><a href="{{ site.baseurl }}/keynote_details#keynote_{{ forloop.index }}_{{ catId }}" class="btn">Detail</a></p>
-                {%- endif -%}
             </div>
         </div>
     </div>
@@ -61,5 +35,3 @@ title: Keynote Speakers
 
 {% endfor %}
 </div>
-
-{% endfor %}
