@@ -35,7 +35,7 @@ title: Schedule
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
+  display: block;
   padding: 6px 12px;
   /*border: 1px solid #ccc;*/
   /*border-top: none;*/
@@ -102,41 +102,33 @@ title: Schedule
 .text-underline {
   text-decoration: underline;
 }
+
+.tabcontent{
+  display: block;
+}
+
 </style>
 
 <script>
   function openCity(evt, cityName) {
   // Declare all variables
-  var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+  window.location.hash=cityName
 }
 </script>
 
+
 <!-- Tab links -->
 <div class="tab">
-  <a href="{{ site.baseurl }}/schedule" class="btn btn-grey">Single Page</a> <a href="{{ site.baseurl }}/technicalProgram" class="btn btn-grey">Technical Program</a>
+  <a href="{{ site.baseurl }}/schedule" class="btn btn-grey">Multi Page</a> <a href="{{ site.baseurl }}/technicalProgram" class="btn btn-grey">Technical Program</a>
 </div>
 
 <br><br>
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, '20211021')" id="defaultOpen">21-Oct-2021</button>
+  <button class="tablinks" onclick="openCity(event, '20211021')">21-Oct-2021</button>
   <button class="tablinks" onclick="openCity(event, '20211022')">22-Oct-2021</button>
   <button class="tablinks" onclick="openCity(event, '20211023')">23-Oct-2021</button>
   <button class="tablinks" onclick="openCity(event, '20211024')">24-Oct-2021</button>
@@ -151,7 +143,3 @@ title: Schedule
 {% include sched_day4.html %}
 
 
-<script>
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>

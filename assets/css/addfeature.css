@@ -479,3 +479,28 @@ td.fee-value {
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
 }
+
+a.btn {
+    display: inline-block;
+    background-image: -moz-linear-gradient(top, #1b64ed, #0037ce);
+    background-image: -webkit-linear-gradient(top, #1b64ed, #0037ce);
+    background-image: -ms-linear-gradient(top, #1b64ed, #0037ce);
+    background-image: linear-gradient(top, #1b64ed, #0037ce);
+    background-color: #1b64ed;
+    color: rgba(207, 204, 204, 0.993);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px #6078ffd9, 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.295);
+    text-decoration: none;
+}
+
+a.btn-grey {
+    background-image: -moz-linear-gradient(top, #b4c1d9, #c5c6ca);
+    background-image: -webkit-linear-gradient(top, #b4c1d9, #c5c6ca);
+    background-image: -ms-linear-gradient(top, #b4c1d9, #c5c6ca);
+    background-image: linear-gradient(top, #b4c1d9, #c5c6ca);
+    background-color: #c1d0ec;
+    color: #404042fc;
+    box-shadow: inset 0px 0px 0px 1px rgba(185, 187, 198, 0.75), inset 0px 2px 0px 0px rgba(192, 202, 255, 0.5), inset 0px 0px 0px 2px #b3b5c1d9, 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+  }
