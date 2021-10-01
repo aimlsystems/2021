@@ -9,6 +9,8 @@ title: Panel Discussion
 ------
 {% endif %}
 
+<a id="panel-{{ forloop.index }}"></a>
+
 {:.nt-header}
 ## Panel Discussion {{ forloop.index }}
 

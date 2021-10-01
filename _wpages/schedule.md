@@ -102,6 +102,10 @@ title: Schedule
 .text-underline {
   text-decoration: underline;
 }
+
+.conf-schedule a::after {
+  content: '\1F517';
+}
 </style>
 
 <script>
