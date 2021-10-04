@@ -8,6 +8,8 @@ title: Tutorials
 
 <br><br>
 
+<a id="t-1"></a>
+
 # Tutorial 1
 
 ### Machine Learning for Databases
@@ -21,6 +23,8 @@ title: Tutorials
 
 {:.text-justify}
 Machine learning techniques have been proposed to optimize the databases. For example, traditional empirical database optimization techniques (e.g., cost estimation, join order selection, knob tuning, index and view advisor) cannot meet the high-performance requirement for large-scale database instances, various applications and diversified users, especially on the cloud.  Fortunately, machine learning based techniques can alleviate this problem by judiciously selecting optimization strategy. In this tutorial, we categorize database tasks into three typical problems that can be optimized by different machine learning models, including NP-hard problems (e.g., knob space exploration, index/view selection, partition-key recommendation for offline optimization; query rewrite, join order selection for online optimization), regression problems (e.g., cost/cardinality estimation, index/view benefit estimation, query latency prediction), and prediction  problems (e.g., query workload prediction). We review existing machine learning based techniques to address these problems and provide research challenges.
+
+<a id="t-2"></a>
 
 # Tutorial 2
 
@@ -42,6 +46,8 @@ Summarizing the goals of the tutorial evolve about the following problem:
 {:.text-justify}
 1. Human assisted supervised learning, where given both human annotations and ground truth labels, we learn how to outsource samples to humans to achieve better performance.
 1. Human assisted reinforcement learning, where, for example in autonomous driving, a machine wants to take quick control in an emergency situation, or vice-versa. For example, in collision avoidance systems in cars, the machine takes control during a potential threat, whether in other aeroplanes, humans takes control if there is a possibility of mid-air collisions.
+
+<a id="t-3"></a>
 
 # Tutorial 3
 
