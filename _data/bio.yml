@@ -30,6 +30,28 @@ Jai Ganesh:
 Johannes Gehrke:
   - Johannes Gehrke is a Technical Fellow at Microsoft and the Managing Director of Microsoft Research at Redmond and the CTO and head of machine learning for Microsoft Teams. He has received an Arthur P. Sloan Fellowship, a Humboldt Research Award, the 2011 IEEE Computer Society Technical Achievement Award, and he is an ACM Fellow and an IEEE Fellow. Johannes co-authored the undergraduate textbook Database Management Systems (McGraw-Hill (2002), currently in its third edition), used at universities all over the world. He is a member of the ACM SIGKDD Executive Committee. From 1999 to 2015, Johannes was on the faculty in the Department of Computer Science at Cornell University where he graduated 25 PhD students and was at the time of his leaving holding the endowed chair of Tisch University Professor. From 2005 to 2008, he was Chief Scientist at FAST Search and Transfer. He has been in product groups at Microsoft since 2012, first building Delve and the Office Graph, then building people and feed experiences across all of Microsoft 365,  and then serving as the chief architect and head of machine learning for the Microsoft Teams backend.  Since June 2020, he has a dual rule across research and product, leading all of Microsoft Research in Redmond and leading AI in Teams.
 
+Juliana Freire:
+  -
+    - Juliana Freire is a Professor of Computer Science and Data Science at New York University.
+    - She was the elected chair of the ACM Special Interest Group on Management of Data (SIGMOD),
+    - served as a council member of the Computing Research Association’s Computing Community
+    - Consortium (CCC), and was the NYU lead investigator for the Moore-Sloan Data Science
+    - Environment,  a $32.8 million grant awarded jointly to UW, NYU, and UC Berkeley. She develops
+    - methods and systems that enable a wide range of users to obtain trustworthy insights from data.
+    - This spans topics in large-scale data analysis and integration, visualization, machine learning,
+    - rovenance management, and web information discovery, and different application areas, including
+    - urban analytics, predictive modeling, and computational reproducibility. Freire has co-authored
+    - over 200 technical papers (including 11 award-winning publications), several open-source
+    - systems, and is an inventor of 12 U.S. patents. According to Google Scholar, her h-index is
+    - 61 and her work has received over 15,800 citations. She is an ACM Fellow and a recipient of
+    - an NSF CAREER, two IBM Faculty awards, and a Google Faculty Research award.  She was awarded
+    - the ACM SIGMOD Contributions Award in 2020. Her research has been funded by the National
+    - Science Foundation, DARPA, Department of Energy, National Institutes of Health, Sloan
+    - Foundation, Gordon and Betty Moore Foundation, W. M. Keck Foundation, Google, Amazon, AT&T
+    - Research, Microsoft Research, Yahoo! and IBM. She received a B.S. degree in computer science
+    - from the Federal University of Ceara (Brazil), and M.Sc. and Ph.D. degrees in computer science
+    - from the State University of New York at Stony Brook.
+
 Geetha Manjunath:
   - Dr. Geetha Manjunath is the Founder, CEO and CTO of NIRAMAI Health Analytix, and has led the company to develop a breakthrough AI solution for detecting early stage breast cancer in a non-invasive radiation-free manner. Geetha holds a PhD from IISc and management education from Kellogg’s Chicago. She comes with over 25 years of experience in IT innovation. She has proposed and led multiple AI projects at Xerox Research and Hewlett Packard India. Before starting NIRAMAI, Geetha was a Lab Director for Data Analytics Research at Xerox India. Geetha has received many international and national recognition for her innovations and entrepreneurial work, including CSI Gold Medal, BIRAC WinER Award 2018 and is also on the Forbes List of Top 20 Self-Made Women 2020. She was recently awarded the Accenture Vahini Innovator of the Year Award from Economic Times and Women Entrepreneur of the Year 2020 by BioSpectrum India. Geetha is also an inventor of 16 US patents and more pending grant.
 
@@ -71,3 +93,16 @@ Vijay Chandru:
   - He is an academic and an entrepreneur. As an academic, he earned his PhD in the mathematics of decision sciences (operations research) at MIT in 1982. He has taught and conducted research in the computational mathematics of optimization, geometry, logic and biology at Purdue University (1982-1993) and the Indian Institute of Science (1992-2005). He has coauthored a book in computational logic, edited several volumes and published over seventy peer-reviewed research papers. He was elected a Fellow of the Indian Academy of Sciences in 1996. He is the current president of the Operations Research Society of India for a two year term 2017-2018. Professor Chandru serves as an adjunct faculty member of BioSystems Science & Engineering and a visiting professor of the Robert Bosch Centre for Cyberphysical Systems at IISc.
   - Professor Chandru is a founder of Strand Life Sciences (www.strandls.com), a computational biology company, and of the Association of Biotech led Enterprises (ABLE) and continues to serve in these in executive and advisory capacities. Strand is a new generation healthcare company that has pioneered the advancement of genomics based precision medicine in India. Strand has a multidiscplinary team of close to 200 scientists drawn from information, life and clinical sciences. For work with Strand and biotechnology, he was named a Technology Pioneer of the World Economic Forum in 2007 and the Biospectrum Biotech Entrepreneur of 2007.
   - For contributions to Science and Society, Professor Chandru was awarded the Hari Om Trust Award by University Grants Commission (MHRD) in 2003, the President's Medal of INFORMS (Institute for Operations Research and Management Studies) in 2006, and was named in the 50 pioneers of change by India Today in 2008.
+
+Geoff Webb:
+  -
+    - Professor Geoff Webb is Research Director of the Monash University Data Futures Institute. He
+    - as editor in chief of Data Mining and Knowledge Discovery, from 2005 to 2014. He has been
+    - Program Committee Chair of both ACM SIGKDD and IEEE ICDM, as well as General Chair of ICDM and
+    - member of the ACM SIGKDD Executive. He is a Technical Advisor to machine learning as a service
+    - startup BigML Inc and to recommender systems startup FROOMLE. He developed many of the key
+    - mechanisms of support-confidence association discovery in the 1980s. His OPUS search algorithm
+    - remains the state-of-the-art in rule search. He pioneered multiple research areas as diverse as
+    - black-box user modelling, interactive data analytics and statistically-sound pattern discovery.
+    - He has developed many useful machine learning algorithms that are widely deployed. His many
+    - awards include IEEE Fellow and the inaugural Eureka Prize for Excellence in Data Science (2017).

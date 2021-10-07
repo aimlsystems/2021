@@ -4,13 +4,30 @@ Research:
     - 
 
   Juliana Freire:
-    -
-    -
+    title: Towards Usability and Trust for Data-Driven Models
+    abstract:
+      -
+        - The growing volumes of data we are accumulating open up new
+        - opportunities to create robust, empirical models that can advance
+        - science as well as support data-driven decision and policy making.
+        - However, creating models from data demand complex computational
+        - processes that are difficult to assemble for data scientists and are
+        - out of reach for domain experts that lack training in
+        - computing. Automatic Machine Learning (AutoML) techniques have emerged
+        - to address this challenge and streamline model creation.  In this
+        - talk, I will discuss recent research on a specific class of AutoML
+        - techniques -- the automatic synthesis of ML pipelines -- its benefits
+        - and practical limitations. I will present systems we have developed
+        - that insert users into the AutoML loop by empowering them to
+        - understand and customize models, and guide them through the many tasks
+        - required in model construction, including data discovery and
+        - understanding.  I will also reflect on the importance of
+        - reproducibility as a means to debug and build trust in the results
+        - produced by ML pipelines.
+
 
   Johannes Gehrke:
     title: "AI/ML Systems: Current Developments and Future Directions"
-    # bio: Johannes Gehrke is a Technical Fellow at Microsoft and the Managing Director of Microsoft Research at Redmond and the CTO and head of machine learning for Microsoft Teams. He has received an Arthur P. Sloan Fellowship, a Humboldt Research Award, the 2011 IEEE Computer Society Technical Achievement Award, and he is an ACM Fellow and an IEEE Fellow. Johannes co-authored the undergraduate textbook Database Management Systems (McGraw-Hill (2002), currently in its third edition), used at universities all over the world. He is a member of the ACM SIGKDD Executive Committee. From 1999 to 2015, Johannes was on the faculty in the Department of Computer Science at Cornell University where he graduated 25 PhD students and was at the time of his leaving holding the endowed chair of Tisch University Professor. From 2005 to 2008, he was Chief Scientist at FAST Search and Transfer. He has been in product groups at Microsoft since 2012, first building Delve and the Office Graph, then building people and feed experiences across all of Microsoft 365,  and then serving as the chief architect and head of machine learning for the Microsoft Teams backend.  Since June 2020, he has a dual rule across research and product, leading all of Microsoft Research in Redmond and leading AI in Teams.
-
 
   Sergei Kuznetsov:
     title: Learning Rules and Taxonomies for Better Explanation
@@ -18,8 +35,16 @@ Research:
       - The new wave of interest to rule learning is caused by the shortcomings of Deep Learning models and the growing need for Interpretable and Explainable AI. In this talk we consider the issues of rule learning in its relationship to learning taxonomies of subject domains given by exemplars and their descriptions.  In spite of the fact that complexity of generating compact representation of rules is generally intractable, certain realistic constraints and approximation schemes result in efficient algorithmic approaches.
 
   Geoff Webb:
-    - 
-    - 
+    title: Time series classification at scale
+    abstract:
+      -
+        - Time series classification is a fundamental data science task, providing understanding
+        - of dynamic processes as they evolve over time. The recent introduction of ensemble
+        - techniques has revolutionised this field, greatly increasing accuracy, but at a cost of
+        - increasing already burdensome computational overheads.  I present new time series
+        - classification technologies that achieve the same accuracy as recent state-of-the-art
+        - developments, but with many orders of magnitude greater efficiency and scalability.
+        - These make time series classification feasible at hitherto unattainable scale.
 
   Gerhard Weikum:
     title: "Knowledge Graphs 2021: Achievements, Challenges and Opportunities"
@@ -98,5 +123,3 @@ Industry Insights:
         - explanations for predictions, handling noise in training data, etc. I will show how we apply
         - these modeling best practices at Amazon using real-world examples from our India e-commerce
         - business.
-    # bio: Rajeev Rastogi is the Vice President of Machine Learning at Amazon India. He leads the development of Machine Learning solutions for Amazon’s India business in the areas of Search, Advertising, Deals, Catalog Quality, Payments, Forecasting, Question Answering, Grocery Grading, etc. Previously, he was Vice President of Yahoo! Labs Bangalore and the founding Director of the Bell Labs Research Center in Bangalore, India. Rajeev is an ACM Fellow and a Bell Labs Fellow. He has published over 125 papers, and holds over 100 patents. Rajeev received his B. Tech degree from IIT Bombay, and a PhD degree in Computer Science from the University of Texas, Austin.
-
