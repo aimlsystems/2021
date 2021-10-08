@@ -16,3 +16,8 @@ invited:
 
   Rekha Singhal:
     title: Next Generation Enterprise IT Systems (EIT 2.0)
+
+  Anurag Dwarakanath:
+    title: Spoken Language Understanding for the Indic Region
+    abstract:
+      - In this talk, we will touch upon some of the key challenges in building Spoken Language Understanding systems for the Indic region. We begin with an insight on the usage of code-mixed multi-lingual utterances where many Indic languages (beyond Hindi) are freely used. We show how such Indic languages are represented in transliterated form and surprisingly, the current state-of-the-art multi-lingual language models (such as XLM-R, mBERT) do not build common representations for transliterated text. We then introduce research in Continual Language Learning as an emerging area to bridge this gap. In Continual Language Learning, we aim to build methods that can add support for new languages & vocabularies onto existing pre-trained language models in an incremental way. The Indic region also sees wide variety of spoken language variations including grammatical errors and ambiguous utterances leading to noise in data. We present recent progress in the area of Robust Machine Learning that aims to build learning algorithms that are resilient to noise in data. The talk will present results from experiments on both open source data and Alexa data.
