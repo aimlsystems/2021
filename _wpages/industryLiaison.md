@@ -5,6 +5,15 @@ title: Industry Liaison
 
 {% assign panel = site.data.indusLiason.panel %}
 
+
+{:.nt-header}
+## Industry Liaison
+
+{:.text-center}
+## Saturday, 23 October 2021, 02:00 PM - 04:00 PM
+
+<br><br><br>
+
 {:.nt-header}
 ## Panel Discussion
 
@@ -114,6 +123,7 @@ title: Industry Liaison
                 <div class="nt-feature-pad">
                     <h3><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h3>
                     <p>{{ site.data.peoples[mem][1] | default: ""}}</p>
+                    <p>{{ detail['time'] }}</p>
                 </div>
             </div>
         </div>
