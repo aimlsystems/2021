@@ -3,7 +3,7 @@ layout: other
 title: Volunteers
 ---
 
-{% assign speakers = "Avaneesh, Tanmay Jain, Harsh Pandey, Utkalika Satapathy, Shivangi" | split: ", " %}
+{% assign speakers = "Ghazi Shazan Ahmad, Avaneesh, Tanmay Jain, Swasti Mishra, Harsh Pandey, Utkalika Satapathy, Shivangi" | split: ", " %}
 <div class="row">
 {% for speaker in speakers %}
 {% assign mem = speaker %}
