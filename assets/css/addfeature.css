@@ -432,6 +432,22 @@ td.fee-value {
 .mb1{
     margin-bottom: 1em;
 }
+
+.mb2{
+    margin-bottom: 2em;
+}
+
+.mb3{
+    margin-bottom: 3em;
+}
+
+.pt1{
+    padding-top: 1em;
+}
+.mt1{
+    margin-top: 1em;
+}
+
 @keyframes alert-attention {
     0%   {color: red;}
     33%  {color: blue;}
