@@ -6,7 +6,7 @@ menutitle: Call For Doctoral Symposium Papers
 
 ### Call For Doctoral Symposium Papers
 
-##### Guidelines for Abstract Submission:
+### Guidelines for Abstract Submission:
 
 {:.text-justify}
 We invite applicants to submit an extended 2 page abstract compiling your research towards your dissertation in a coherent manner. The contents of the abstract may include both already published work and work in progress. We highly recommend that the abstract highlights the following about your research:
@@ -31,7 +31,7 @@ The extended abstract may be upto 2 pages with an additional page for references
 * We encourage you also to include a cover sheet, i.e., one page information (see below).
 
 
-##### Cover Sheet
+### Cover Sheet
 A one-page information sheet that includes the following:
 
 * Your full name
@@ -51,7 +51,7 @@ A one-page information sheet that includes the following:
 Submission site: [https://cmt3.research.microsoft.com/AIMLSystems2021/](https://cmt3.research.microsoft.com/AIMLSystems2021/).
 
 
-##### Upon Acceptance
+### Upon Acceptance
 
 {:.text-justify}
 We will notify the acceptance of your submission via email. Upon acceptance, we invite you to a presentation of your extended abstract to a panel of experts.
@@ -67,12 +67,46 @@ Please feel free to contact any of the organizing committee for any questions re
 * ~~Paper submissions due: August 22, 2021~~
 * ~~Paper submissions due: August 30, 2021~~
 * ~~Author notifications (Accept/Reject): September 12, 2021~~
-* Author notifications (Accept/Reject): September 21, 2021
-* Camera-ready submissions due: October 10, 2021
+* ~~Author notifications (Accept/Reject): September 21, 2021~~
+* ~~Camera-ready submissions due: October 10, 2021~~
 * Conference dates: October 21-23, 2021
 
+<a id="schedule"></a>
+
+### Schedule
+
+#### Doctoral Symposium, 22 October 2021, Friday (2:00-4:30 pm)
+
+{:.mb2}
+#### Session 1: Presentations (2:00-3:30 pm)
+
+{:.mb1.mt1}
+***2:00-2:30 pm***
+
+* Generative Modelling and Representation Learning in Temporal Graphs
+* Investigating Interpretability in Deep Learning Models: A Case Study on Cardiac Abnormality Detection from Electrocardiogram Signals
+* Explorations into MapReduce based Parallel Reduct Computation
+
+{:.mb1.mt1}
+***2:30-3:00 pm***
+
+* Learning Neural Models for Continuous-Time Sequences
+* Cybersecurity Threat Detection using Machine Learning and Deep Learning Techniques
+* Exploring Attention-based Deep Learning methods for Classification, Retrieval and Shape Completion of ALS Roof Point Clouds
+
+{:.mb1.mt1}
+***3:00-3:30 pm***
+
+* Evolving Hyperboxes for Enhanced Classification and Scalable Feature Selection
+* Data Analysis Techniques for Smart Nudging
+* Advanced machine learning techniques for short-term solar irradiance forecasting
+
+{:.mb3}
+#### Session 2: Round table with Young Researchers (Informal Session) (3:30-4:30 pm)
 
 
-##### Doctoral Symposium Chairs
+
+
+### Doctoral Symposium Chairs
 
 {% include function_chairs.html committee="Doctoral Symposium" %}
