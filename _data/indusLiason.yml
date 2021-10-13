@@ -11,23 +11,23 @@ panel:
 invited:
   Dinesh Jayagopi:
     title: Virtual Agent based Intelligent Platform for Multimodal Conversations 
-    time: 03:00 PM - 03:20 PM
+    time: 03:20 PM - 03:40 PM
     abstract:
       - In this talk, we will discuss technologies for real-time multimodal conversational agents and applications. Multimodal analysis enables understanding user emotion and state, multimodal dialog enables making use of this information along with spoken text and subsequently generate the surface text along with the appropriate state for the virtual agent, and finally the multimodal synthesis module generates suitable nonverbal behavior and prosody for the agent reply. These systems can find applications in healthcare or education, where information can be solicited from the user and a simple task-oriented conversation can be accomplished. Innovations for quickly customizing the avatar appearance and animations are also emerging. In particular, we will discuss an attempt to build a Virtual Agent based UPSC mock interviewing platform called Margadarshi, to train students in rural areas to prepare for IAS interviews conducted by 4-5 panel members. 
 
   Rekha Singhal:
     title: Next Generation Enterprise IT Systems (EIT 2.0)
-    time: 03:20 PM - 03:40 PM
+    time: 03:40 PM - 04:00 PM
 
   Anurag Dwarakanath:
     title: Spoken Language Understanding for the Indic Region
-    time: 03:40 PM - 04:00 PM
+    time: 04:00 PM - 04:20 PM
     abstract:
       - In this talk, we will touch upon some of the key challenges in building Spoken Language Understanding systems for the Indic region. We begin with an insight on the usage of code-mixed multi-lingual utterances where many Indic languages (beyond Hindi) are freely used. We show how such Indic languages are represented in transliterated form and surprisingly, the current state-of-the-art multi-lingual language models (such as XLM-R, mBERT) do not build common representations for transliterated text. We then introduce research in Continual Language Learning as an emerging area to bridge this gap. In Continual Language Learning, we aim to build methods that can add support for new languages & vocabularies onto existing pre-trained language models in an incremental way. The Indic region also sees wide variety of spoken language variations including grammatical errors and ambiguous utterances leading to noise in data. We present recent progress in the area of Robust Machine Learning that aims to build learning algorithms that are resilient to noise in data. The talk will present results from experiments on both open source data and Alexa data.
 
   Sujeeth Gattu:
     title: Embedded Vision - Challenges
-    time: 04:00 PM - 04:20 PM
+    time: 04:20 PM - 04:40 PM
     abstract:
       - In recent times, we have seen compact vision systems (based on adapted camera modules) integrated directly into machines or devices, where, together with bespoke computer platforms and lower power consumption, they have made intelligent image processing possible in the most diverse applications without a classic industrial PC being required.
       - Migration of complex neural networks onto embedded platforms has become a major challenge given the rising complexity of the neural networks. Here we discuss the challenges of migrating the CNNs onto targeted devices. The key topics covered here are Pruning, Calibration and Quantization. We discuss the challenges we faced and the techniques we used to overcome them in real world scenarios.

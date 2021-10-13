@@ -5,7 +5,8 @@ title: Keynotes Speeches
 
 {% for cat in site.data.keynote_speakers %}
 {% assign catId = forloop.index %}
-{% assign speakers = cat[1] %}
+<!-- {{ cat  }} -->
+{% assign talks = cat[1] %}
 {% if forloop.first == false %} 
 <br>
 <hr>
@@ -15,34 +16,26 @@ title: Keynotes Speeches
 
 <div class="row oc_cntr">
 <div class="col-12">
-{% assign sm-modulo = speakers.size | modulo: 2 %}
-{% assign md-modulo = speakers.size | modulo: 3 %}
 
-{% for speaker in speakers %}
+{% for talk in talks %}
 
-{% assign mem = speaker[0] %}
-{% assign detail = speaker[1] %}
+{% assign talkId = forloop.index %}
 
-{% assign sm-offset = "0" %}
-{% if forloop.last and sm-modulo==1 %}
-{% assign sm-offset = "3" %}
-{% endif %}
 
-{% assign md-offset = "0" %}
-{% if forloop.last and md-modulo==1 %}
-{% assign md-offset = "4" %}
-{% elsif forloop.rindex==2 and md-modulo==2 %}
-{% assign md-offset = "2" %}
-{% endif %}
+{% assign detail = talk %}
 
 {% if detail['title'] == nil %}
 {% continue %}
 {% endif %}
 
+<!-- {{ talk }} -->
+
 <a id="keynote_{{ forloop.index }}_{{ catId }}"></a>
 <div class="row">
     <div class="col-3 col-12-medium">
         <div class="row text-center">
+        {% for speaker in talk.speakers %}
+        {% assign mem = speaker %}
             <div class="col-12">
                 <img class="img-fuild" style="max-width: 120px; max-height: auto;" src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}">
             </div>
@@ -52,6 +45,7 @@ title: Keynotes Speeches
                     <p>{{ site.data.peoples[mem][1] | default: ""}}</p>
                 </div>
             </div>
+        {% endfor %}
         </div>
     </div>
     <div class="col-9 col-12-medium">
@@ -70,11 +64,18 @@ title: Keynotes Speeches
         {% endfor %}
         {% endif %}
 
+        {% for speaker in talk.speakers %}
+        {% assign mem = speaker %}
+
         {% if site.data.bio[mem] %}
         {% for b in site.data.bio[mem] %}
         <div class="text-justify">
             {% if forloop.first %}
-            <b>Bio:</b> 
+            <b>Bio
+                {% if talk.speakers.size > 1 %}
+                ({{ mem }})
+                {% endif %}
+            :</b>
             {% else %}
                 &nbsp;&nbsp;&nbsp;&nbsp;
             {% endif %}
@@ -82,6 +83,7 @@ title: Keynotes Speeches
         </div>
         {% endfor %}
         {% endif %}
+        {% endfor %}
     </div>
 </div>
 <br>

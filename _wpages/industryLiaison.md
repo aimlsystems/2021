@@ -81,7 +81,10 @@ title: Industry Liaison
 
 {% endif %}
 
-
+<hr>
+<br />
+<br />
+<br />
 
 {:.nt-header}
 ## Invited Talks

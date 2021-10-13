@@ -1,9 +1,12 @@
 Research:
-  Sang Cha:
-    - 
-    - 
+  -
+    speakers:
+      - Sang Cha
+      - Wen-Syan Li
 
-  Juliana Freire:
+  -
+    speakers:
+      - Juliana Freire
     title: Towards Usability and Trust for Data-Driven Models
     abstract:
       -
@@ -26,15 +29,21 @@ Research:
         - produced by ML pipelines.
 
 
-  Johannes Gehrke:
+  -
+    speakers:
+      - Johannes Gehrke
     title: "AI/ML Systems: Current Developments and Future Directions"
 
-  Sergei Kuznetsov:
+  -
+    speakers:
+      - Sergei Kuznetsov
     title: Learning Rules and Taxonomies for Better Explanation
     abstract: 
       - The new wave of interest to rule learning is caused by the shortcomings of Deep Learning models and the growing need for Interpretable and Explainable AI. In this talk we consider the issues of rule learning in its relationship to learning taxonomies of subject domains given by exemplars and their descriptions.  In spite of the fact that complexity of generating compact representation of rules is generally intractable, certain realistic constraints and approximation schemes result in efficient algorithmic approaches.
 
-  Geoff Webb:
+  -
+    speakers:
+      - Geoff Webb
     title: Time series classification at scale
     abstract:
       -
@@ -46,14 +55,18 @@ Research:
         - developments, but with many orders of magnitude greater efficiency and scalability.
         - These make time series classification feasible at hitherto unattainable scale.
 
-  Gerhard Weikum:
+  -
+    speakers:
+      - Gerhard Weikum
     title: "Knowledge Graphs 2021: Achievements, Challenges and Opportunities"
     abstract: 
       - Machines with comprehensive knowledge of the world's entities and their relationships has been a long-standing vision and challenge of AI. Over the last two decades, huge knowledge bases, also known as knowledge graphs, have been automatically constructed from web data and text sources, and have become a key asset for search engines and other use cases. Machine knowledge can be harnessed to semantically interpret text in news, social media and web tables, contributing to  question answering, natural language processing and data analytics. This talk reviews these advances and discusses lessons learned (see <a href="http://dx.doi.org/10.1561/1900000064">http://dx.doi.org/10.1561/1900000064</a> for a comprehensive survey). Moreover, the talk identifies open challenges and new research opportunities.
     # bio: Gerhard Weikum is a Scientific Director at the Max Planck Institute for Informatics in Saarbruecken, Germany, and an Adjunct Professor at Saarland University. He co-authored a comprehensive textbook on transactional systems, received the VLDB Test-of-Time Award 2002 for his work on automatic database tuning, and is one of the creators of the YAGO knowledge base which was recognized by the WWW Test-of-Time Award in 2018. Weikum is an ACM Fellow and elected member of various academies. He received the ACM SIGMOD Contributions Award in 2011, a Google Focused Research Award in 2011, an ERC Synergy Grant in 2014, and the ACM SIGMOD Edgar F. Codd Innovations Award in 2016.
 
 Industry Insights:
-  Anand Deshpande:
+  -
+    speakers:
+      - Anand Deshpande
     title: Deploying Machine Learning to help make Better Decisions
     abstract:
       - 
@@ -91,11 +104,14 @@ Industry Insights:
         - better insights precisely when needed.
     
 
-  Daniel Keller:
-    -
-    -
+  -
+    speakers:
+      - Daniel Keller
+    title: Value creation in Classifieds, E-Commerce and Marketplace business with AI / ML and its challenges.
 
-  Ananth Krishnan:
+  -
+    speakers:
+      - Ananth Krishnan
     title: Scaling AI, Responsibly
     abstract: 
       - 
@@ -114,7 +130,9 @@ Industry Insights:
         - Finally, he will touch upon Cybersecurity, Safety, Legal and Ethical issues relating to AI.
     
 
-  Rajeev Rastogi:
+  -
+    speakers:
+      - Rajeev Rastogi
     title: Machine Learning Modeling Best Practices
     abstract: 
       -
