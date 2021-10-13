@@ -67,9 +67,18 @@
 })(jQuery);
 
 $(document).ready(function(){
-	if(window.location.hash=="" && _HOME_PAGE_ == false) {
+	if(window.location.hash=="" && _HOME_PAGE_ == false && pageAccessedByReload==false) {
 		var ele = $('#logo')
 		$(window).scrollTop(ele.offset().top + ele.height());
 		// $('#maintitle1')[0].scrollIntoView(true);
 	}
 })
+
+const pageAccessedByReload = (
+  (window.performance.navigation && window.performance.navigation.type === 1) ||
+    window.performance
+      .getEntriesByType('navigation')
+      .map((nav) => nav.type)
+      .includes('reload')
+);
+// alert(pageAccessedByReload);
