@@ -15,12 +15,16 @@ title: Technical Program
 
 ## {{ ses[0] }}: {{ ses[1]["session"] }}
 
-<div markdown=1 class="bd-callout bd-callout-info">
+{% if ses[1]["chair"] %}
+{% assign chair = ses[1]['chair'] %}
+#### Session Chair: {{ site.data.peoples[chair][0] }}, {{ site.data.peoples[chair][1] }}
+{% endif %}
 
+<div markdown=1 class="bd-callout bd-callout-info">
 <ul>
 {% for paper in ses[1]["papers"] %}
 
-<li><b><i>{{ paper }}</i></b></li>
+<li><i>{{ paper }}</i></li>
 
 {% endfor %}
 </ul>

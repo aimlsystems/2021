@@ -1,6 +1,7 @@
 T1-1:
   time: Thursday, 21 October, 11:30AM - 1:00PM
   session: Efficiency
+  chair:
   papers:
     - Leveraging Prediction Confidence For Versatile Optimizations to CNNs (R)
     - Federated matched averaging with information-gain based parameter sampling (R)
@@ -12,6 +13,7 @@ T1-1:
 T1-2-1:
   time: Thursday, 21 October, 2:00PM - 3:30PM
   session: Socio-Economic Applications + demo
+  chair: Steven Euijong Whang
   papers:
     - Stacked Sparse Autoencoder and Machine Learning Based Anxiety Classification Using EEG Signals (R)
     - InuAid Chest X-rays AI Product (I)
@@ -23,6 +25,7 @@ T1-2-1:
 T1-2-2:
   time: Thursday, 21 October, 3:45PM - 4:30PM
   session: ML and Security
+  chair: Sparsh Mittal
   papers:
     - Inferring DNN layer-types through a hardware performance counters based side channel attack (R)
     - "BOND: Efficient and Frugal DL Model Co-design for Botnet detection on IoT Gateways (R)"
@@ -31,6 +34,7 @@ T1-2-2:
 T1-3:
   time: Friday, 22 October, 11:30AM - 1:00PM
   session: NLP and Information Retrieval
+  chair: Vinay Ribeiro
   papers:
     - A Word Embedding Topic Model for Robust Inference of Topics and Visualization (R)
     - Word-level beam search decoding and correction algorithm (WLBS) for end-to-end ASR (R)
