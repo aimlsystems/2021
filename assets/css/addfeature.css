@@ -520,3 +520,12 @@ a.btn-grey {
     color: #404042fc;
     box-shadow: inset 0px 0px 0px 1px rgba(185, 187, 198, 0.75), inset 0px 2px 0px 0px rgba(192, 202, 255, 0.5), inset 0px 0px 0px 2px #b3b5c1d9, 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
   }
+
+.virtual-table td {
+    border: solid black 2px;
+    padding: 5px;
+}
+
+.virtual-table {
+    margin-top: 1em;
+}
