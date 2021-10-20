@@ -103,6 +103,16 @@ title: Schedule
   text-decoration: underline;
 }
 
+.conf-schedule a {
+  text-decoration: underline;
+}
+
+.conf-schedule a::after {
+  content: '\1F517';
+  text-decoration: underline;
+}
+
+
 .tabcontent{
   display: block;
 }
