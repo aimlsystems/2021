@@ -111,6 +111,18 @@ Industry Insights:
 
   -
     speakers:
+      - Rajeev Rastogi
+    title: Machine Learning Modeling Best Practices
+    abstract:
+      -
+        - I will talk about best practices when developing Machine Learning models such as generating
+        - uncertainty estimates for predictions, balancing exploitation with exploration, generating
+        - explanations for predictions, handling noise in training data, etc. I will show how we apply
+        - these modeling best practices at Amazon using real-world examples from our India e-commerce
+        - business.
+
+  -
+    speakers:
       - Ananth Krishnan
     title: Scaling AI, Responsibly
     abstract: 
@@ -129,15 +141,3 @@ Industry Insights:
         - ensure the cost of the corrective workflows does not outweigh the benefits of AI/ML.
         - Finally, he will touch upon Cybersecurity, Safety, Legal and Ethical issues relating to AI.
     
-
-  -
-    speakers:
-      - Rajeev Rastogi
-    title: Machine Learning Modeling Best Practices
-    abstract: 
-      -
-        - I will talk about best practices when developing Machine Learning models such as generating
-        - uncertainty estimates for predictions, balancing exploitation with exploration, generating
-        - explanations for predictions, handling noise in training data, etc. I will show how we apply
-        - these modeling best practices at Amazon using real-world examples from our India e-commerce
-        - business.
