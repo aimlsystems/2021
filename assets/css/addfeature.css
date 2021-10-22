@@ -343,6 +343,9 @@ a.fa {
     background-color: #cfe2ff;
     border-color: #b6d4fe;
 }
+.alert-primary a {
+    color: #084298;
+}
 .alert-secondary {
     color: #41464b;
     background-color: #e2e3e5;
@@ -367,6 +370,9 @@ a.fa {
     color: #055160;
     background-color: #cff4fc;
     border-color: #b6effb;
+}
+.alert-info a {
+    color: #055160 !important;
 }
 .alert-light {
     color: #636464;
