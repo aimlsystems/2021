@@ -3,6 +3,18 @@ Research:
     speakers:
       - Sang Cha
       - Wen-Syan Li
+    title: Data Science for Everyone
+    abstract:
+      -
+        - Data is the single most critical commodity of the modern world. Every field, business
+        - and industry want to utilize it to effectively empower decision making. but explore their
+        - usage and applications in a uniquely specific way. We see AI service, Big Data, and
+        - Cloud Computing as ABC of the digital economy and data science is the foundation of
+        - every academic discipline and industry in the digital economy. The Graduate School of
+        - Data Science at Seoul National University aims at changing higher education systems
+        - for broader education for data science. In this talk, we introduce our initiative of “data
+        - science for everyone” and highlight how we incorporate the emerging trend of Ambient
+        - AI into our curriculum.
 
   -
     speakers:
