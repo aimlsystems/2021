@@ -146,8 +146,8 @@ title: Schedule
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, '20211021')">21-Oct-2021</button>
-  <button class="tablinks" onclick="openCity(event, '20211022')" id="defaultOpen">22-Oct-2021</button>
-  <button class="tablinks" onclick="openCity(event, '20211023')">23-Oct-2021</button>
+  <button class="tablinks" onclick="openCity(event, '20211022')">22-Oct-2021</button>
+  <button class="tablinks" onclick="openCity(event, '20211023')" id="defaultOpen">23-Oct-2021</button>
   <button class="tablinks" onclick="openCity(event, '20211024')">24-Oct-2021</button>
 </div>
 
