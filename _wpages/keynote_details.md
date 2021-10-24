@@ -45,7 +45,7 @@ title: Keynotes Speeches
     <div class="col-9 col-12-medium">
         <h2>{{ detail['title'] }}</h2>
         {% if detail['video'] %}
-        <a href="{{ detail['video'] }}" class="btn"> Video </a>
+<!--         <a href="{{ detail['video'] }}" class="btn"> Video </a> -->
         {% endif %}
         {% if detail['abstract'] %}
         {% for d in detail['abstract'] %}
