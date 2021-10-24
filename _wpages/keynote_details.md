@@ -18,18 +18,12 @@ title: Keynotes Speeches
 <div class="col-12">
 
 {% for talk in talks %}
-
 {% assign talkId = forloop.index %}
-
-
 {% assign detail = talk %}
-
 {% if detail['title'] == nil %}
 {% continue %}
 {% endif %}
-
 <!-- {{ talk }} -->
-
 <a id="keynote_{{ forloop.index }}_{{ catId }}"></a>
 <div class="row">
     <div class="col-3 col-12-medium">
@@ -50,13 +44,10 @@ title: Keynotes Speeches
     </div>
     <div class="col-9 col-12-medium">
         <h2>{{ detail['title'] }}</h2>
-
         {% if detail['video'] %}
         <a href="{{ detail['video'] }}" class="btn"> Video </a>
         {% endif %}
-
         {% if detail['abstract'] %}
-
         {% for d in detail['abstract'] %}
         <div class="text-justify">
             {% if forloop.first %}
@@ -68,10 +59,8 @@ title: Keynotes Speeches
         </div>
         {% endfor %}
         {% endif %}
-
         {% for speaker in talk.speakers %}
         {% assign mem = speaker %}
-
         {% if site.data.bio[mem] %}
         {% for b in site.data.bio[mem] %}
         <div class="text-justify">
@@ -93,12 +82,9 @@ title: Keynotes Speeches
 </div>
 <br>
 <br>
-
-
 {% endfor %}
 </div>
 </div>
-
 {% endfor %}
 
 
