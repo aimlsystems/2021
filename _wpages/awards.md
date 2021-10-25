@@ -8,13 +8,13 @@ menutitle: Awards
 
 #### Outstanding Application Oriented Research
 *Resource Constrained Neural Networks for Direction-of-Arrival Estimation in Micro-controllers*
-
-Piyush Ranjan Sahoo (IIITD), Romesh Rajoria (IIITD), Shivam Chandhok (Mohamed bin Zayed University of AI, UAE), S. J. Darak (IIITD), Danilo Pau (STMicroelectronics, Italy), Hem Dutt Dabral (STMicroelectronics, India)
+<br>Piyush Ranjan Sahoo (IIITD), Romesh Rajoria (IIITD), Shivam Chandhok (Mohamed bin Zayed University of AI, UAE), S. J. Darak (IIITD), Danilo Pau (STMicroelectronics, Italy), Hem Dutt Dabral (STMicroelectronics, India)
 
 #### Best Doctoral Work
 *Learning Neural Models for Continuous-Time Sequences*
+<br>Vinayak Gupta (IITD)
 
-Vinayak Gupta (IITD)
+----
 
 {:.text-justify}
 Created by a generous donation of the __Professor Ram Kumar Memorial Foundation__, the
