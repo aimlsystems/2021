@@ -46,8 +46,10 @@ Research:
   -
     speakers:
       - Johannes Gehrke
-    title: "AI/ML Systems: Current Developments and Future Directions"
+    title: "ML in Microsoft Teams and The Future of Software"
     video: https://youtu.be/mU5tft0PaEY
+    abstract: 
+      - Software 2.0 – the augmentation and replacement of traditional code with models, especially deep neural networks – is changing how we develop, deploy, and maintain software. In this talk, I will describe the challenges and opportunities that this change brings with it and how we use deep learning to improve Microsoft Teams.
 
   -
     speakers:
