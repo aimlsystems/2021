@@ -7,7 +7,7 @@ menutitle: Call For Doctoral Symposium Papers
 ### Call For Doctoral Symposium Papers
 
 <div class="alert alert-secondary">
-    <h4 style="color: black"><a href="{{ site.baseurl }}/docs/DoctoralSyposium-CameraReadys-62-71.zip">Click here to download the accepted papers (full text)</a></h4>
+    <h4 style="color: black;text-align: center;"><a href="{{ site.baseurl }}/docs/DoctoralSyposium-CameraReadys-62-71.zip">Click here to download the accepted papers (full text)</a></h4>
 </div>
 
 ### Guidelines for Abstract Submission:
