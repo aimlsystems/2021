@@ -6,10 +6,16 @@ menutitle: Call For Doctoral Symposium Papers
 
 ### Call For Doctoral Symposium Papers
 
+<div class="alert alert-secondary">
+    <h4 style="color: black"><a href="{{ site.baseurl }}/docs/DoctoralSyposium-CameraReadys-62-71.zip">Click here to download the accepted papers (full text)</a></h4>
+</div>
+
 ### Guidelines for Abstract Submission:
 
 {:.text-justify}
 We invite applicants to submit an extended 2 page abstract compiling your research towards your dissertation in a coherent manner. The contents of the abstract may include both already published work and work in progress. We highly recommend that the abstract highlights the following about your research:
+
+
 
 * Motivation
 * Major contributions of the thesis
