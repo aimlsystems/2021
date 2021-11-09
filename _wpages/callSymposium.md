@@ -90,7 +90,7 @@ Please feel free to contact any of the organizing committee for any questions re
 {:.mb1.mt1}
 ***2:00-2:30 pm***
 
-* Generative Modelling and Representation Learning in Temporal Graphs
+* [Generative Modelling and Representation Learning in Temporal Graphs] [67]
 * Investigating Interpretability in Deep Learning Models: A Case Study on Cardiac Abnormality Detection from Electrocardiogram Signals
 * Explorations into MapReduce based Parallel Reduct Computation
 
@@ -117,3 +117,15 @@ Please feel free to contact any of the organizing committee for any questions re
 ### Doctoral Symposium Chairs
 
 {% include function_chairs.html committee="Doctoral Symposium" %}
+
+
+[62]: {{ site.baseurl }}/docs/doctsymp/62/CameraReady/AI_ML_Doctoral_symposium_camera_ready.pdf
+[63]: {{ site.baseurl }}/docs/doctsymp/63/CameraReady/draft%20for%20phd%20symposium.pdf
+[64]: {{ site.baseurl }}/docs/doctsymp/64/CameraReady/doc.pdf
+[65]: {{ site.baseurl }}/docs/doctsymp/65/CameraReady/AI-ML_Pratima.pdf
+[66]: {{ site.baseurl }}/docs/doctsymp/66/CameraReady/CameraReady-AIML.pdf
+[67]: {{ site.baseurl }}/docs/doctsymp/67/CameraReady/Doctoral_Symposium_67.pdf
+[68]: {{ site.baseurl }}/docs/doctsymp/68/CameraReady/Cybersecurity%20Threat%20Detection%20using%20Machine%20Learning%20and%20Deep%20Learning%20Techniques.pdf
+[69]: {{ site.baseurl }}/docs/doctsymp/69/CameraReady/symbosium%20(1).pdf
+[70]: {{ site.baseurl }}/docs/doctsymp/70/CameraReady/Dimple_AI_ML_Symposium.pdf
+[71]: {{ site.baseurl }}/docs/doctsymp/71/CameraReady/test.pdf
