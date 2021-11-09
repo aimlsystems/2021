@@ -76,7 +76,7 @@ Please feel free to contact any of the organizing committee for any questions re
 * ~~Author notifications (Accept/Reject): September 12, 2021~~
 * ~~Author notifications (Accept/Reject): September 21, 2021~~
 * ~~Camera-ready submissions due: October 10, 2021~~
-* Conference dates: October 21-23, 2021
+* ~~Conference dates: October 21-23, 2021~~
 
 <a id="schedule"></a>
 
@@ -90,23 +90,23 @@ Please feel free to contact any of the organizing committee for any questions re
 {:.mb1.mt1}
 ***2:00-2:30 pm***
 
-* [Generative Modelling and Representation Learning in Temporal Graphs] [67]
-* Investigating Interpretability in Deep Learning Models: A Case Study on Cardiac Abnormality Detection from Electrocardiogram Signals
-* Explorations into MapReduce based Parallel Reduct Computation
+* [Generative Modelling and Representation Learning in Temporal Graphs] [62]
+* [Investigating Interpretability in Deep Learning Models: A Case Study on Cardiac Abnormality Detection from Electrocardiogram Signals] [67]
+* [Explorations into MapReduce based Parallel Reduct Computation] [66]
 
 {:.mb1.mt1}
 ***2:30-3:00 pm***
 
-* Learning Neural Models for Continuous-Time Sequences
-* Cybersecurity Threat Detection using Machine Learning and Deep Learning Techniques
-* Exploring Attention-based Deep Learning methods for Classification, Retrieval and Shape Completion of ALS Roof Point Clouds
+* [Learning Neural Models for Continuous-Time Sequences] [64]
+* [Cybersecurity Threat Detection using Machine Learning and Deep Learning Techniques] [68]
+* [Exploring Attention-based Deep Learning methods for Classification, Retrieval and Shape Completion of ALS Roof Point Clouds] [70]
 
 {:.mb1.mt1}
 ***3:00-3:30 pm***
 
-* Evolving Hyperboxes for Enhanced Classification and Scalable Feature Selection
-* Data Analysis Techniques for Smart Nudging
-* Advanced machine learning techniques for short-term solar irradiance forecasting
+* [Evolving Hyperboxes for Enhanced Classification and Scalable Feature Selection] [69]
+* [Data Analysis Techniques for Smart Nudging] [63]
+* [Advanced machine learning techniques for short-term solar irradiance forecasting] [65]
 
 {:.mb3}
 #### Session 2: Round table with Young Researchers (Informal Session) (3:30-4:30 pm)
