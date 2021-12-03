@@ -17,7 +17,7 @@ menutitle: Awards
 ----
 
 {:.text-justify}
-Created by a generous donation of the __Professor Ram Kumar Memorial Foundation__, the
+Created by a generous donation of the __COMSNETS Association__, the
 `Best of AIML Systems’ Awards will be given annually at the International Conference on
 Artificial Intelligence and Machine Learning Systems.
 
